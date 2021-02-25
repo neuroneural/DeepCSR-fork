@@ -1,0 +1,37 @@
+# pass via cli to override configurations
+user_config: null
+
+# evaluation inputs
+inputs:  
+  # mris_ids to process in text file with one per row
+  mri_ids: /scratch1/fon022/datasets/SURF_ADNI_AFFINE_PPDIST/test.lst
+  # path folders with ground-truth data
+  gt_folder: /scratch1/fon022/datasets/SURF_ADNI_AFFINE_PPDIST/
+  # folder with mesh prediction
+  pred_folder: /scratch1/fon022/DeepCSR/checkpoints/training/exp_sdf_weight_cont_2/generation_sm1/
+  # eval surfaces
+  surfaces: ['lh_pial', 'lh_white', 'rh_pial', 'rh_white']
+
+# evaluator configuration
+evaluator:
+  # use precomputed point cloud as ground-truth
+  use_precomp_pcl: False
+  # number of points sampled points used for computing mesh metrics
+  num_sampled_points: 100000
+  # number of jobs to joblib
+  num_jobs: 16
+  
+# output configuration (ATTENTION it MUST be override from command line to work with hydra log files)
+outputs:
+  # output directory
+  output_dir: /scratch1/fon022/DeepCSR/checkpoints/eval_debug/
+  # output csv file with metrics
+  metrics_csv_prefix: mesh_eval
+  
+# hydra configurations and log files
+hydra:
+  run:
+    dir: ${outputs.output_dir}
+  output_subdir: null
+
+

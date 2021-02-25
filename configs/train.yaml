@@ -1,0 +1,60 @@
+# pass via cli to override configurations
+user_config: null
+
+# dataset configuration
+dataset:  
+  # path to dataset directory
+  path: /scratch1/fon022/datasets/SURF_ADNI_AFFINE_PPDIST/
+  # train split (.txt file with subjects ids)
+  train_split: /scratch1/fon022/datasets/SURF_ADNI_AFFINE_PPDIST/train.lst
+  # validation split (.txt file with subjects ids)
+  val_split: /scratch1/fon022/datasets/SURF_ADNI_AFFINE_PPDIST/val.lst
+  # surface names to train the model
+  surfaces: ['lh_pial', 'lh_white', 'rh_pial', 'rh_white']
+  # implicit representation to use [occ or sdf]
+  implicit_rpr: sdf
+
+
+# trainer configuration
+trainer:
+  # number of images per batch
+  img_batch_size: 5
+  # number of point per image
+  points_per_image: 1024
+  # log interval in iterations
+  train_log_interval:  10
+  # frequency of iterations to checkpoint model
+  checkpoint_interval: 5000
+  # frequency of iterations to evaluate model
+  evaluate_interval: 2000
+  # resume from checkpoint
+  resume_checkpoint: null
+
+# DeepCSR model configuration
+model:
+  hypercol: True
+  device: 'cuda:0'
+
+# optimizer and its arguments
+optimizer:
+  name: Adam
+  kwargs:
+    lr: 0.0001
+
+# learning schedule and its arguments
+lr_schedule: 
+  name: null
+  kwargs: null
+
+# output configuration (ATTENTION it MUST be override from command line to work with hydra log files)
+outputs:
+  # output directory
+  output_dir: /scratch1/fon022/DeepCSR/checkpoints/training_debug/
+
+
+# hydra configurations and log files
+hydra:
+  run:
+    dir: ${outputs.output_dir}
+  output_subdir: null
+

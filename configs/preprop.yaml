@@ -1,0 +1,38 @@
+inputs:
+  sample_id: 002_S_0295_bl
+  mri_vol_path: /scratch1/fon022/DeepCSR/resources/preprop_sample/002_S_0295_bl_orig.mgz
+  lh_pial_path: /scratch1/fon022/DeepCSR/resources/preprop_sample/002_S_0295_bl_lh.pial
+  lh_white_path: /scratch1/fon022/DeepCSR/resources/preprop_sample/002_S_0295_bl_lh.white
+  rh_pial_path: /scratch1/fon022/DeepCSR/resources/preprop_sample/002_S_0295_bl_rh.pial
+  rh_white_path: /scratch1/fon022/DeepCSR/resources/preprop_sample/002_S_0295_bl_rh.white
+
+# data registration parameters
+registration:
+  # rigid or affine 
+  only_rigid: False
+  # path to mri brain template
+  template_path: /scratch1/fon022/DeepCSR/resources/MNI152_T1_1mm.nii.gz
+
+# mesh sampling parameters
+sampling:
+  num_points: 4000000
+  # ratio of points sampled uniform in the bounding box of the mesh
+  bbox_ratio: 0.1
+  # mesh bounding box padding, template plus some padding (10)
+  bbox_size: [192., 228., 192.]
+  # perturbation to sampled points lies near the mesh
+  point_pertub_sigma: 1.0
+  # point2plane or point2center
+  distance_method: point2center 
+
+outputs:
+  # output directory
+  output_dir: /scratch1/fon022/DeepCSR/checkpoints/data_prep_demo/
+  # pack bits and use float16
+  compress: True
+
+# hydra configurations and log files
+hydra:
+  run:
+    dir: ${outputs.output_dir}/${inputs.sample_id}
+  output_subdir: null
