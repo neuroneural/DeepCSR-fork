@@ -17,5 +17,5 @@ source ${SRC_DIR}/bracewell/setup.sh
 
 python train.py outputs.output_dir=${OUT_DIR} user_config=${CONFIG}
 
-# example to run training job
+# example to run train_job
 # sbatch --export=OUT_DIR=<path to output directory>,CONFIG="<path_to_overriding_config_file>" /scratch1/fon022/DeepCSR/slurm/train_job.q
