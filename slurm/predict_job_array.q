@@ -26,5 +26,5 @@ echo "Running Prediction ID=${ID}: ${MRI_ID}, ${MRI_VOL_PATH}"
 
 python predict.py  user_config=${CONFIG} inputs.mri_id=${MRI_ID} inputs.mri_vol_path=${MRI_VOL_PATH} outputs.output_dir=${OUT_DIR}/${MRI_ID}/ 
 
-# lunch command as ...
+#launch command as ...
 #sbatch --array=[0-MAX_JOBS]%MAX_PAR --export=CONFIG=<>,OUT_DIR=<>,IN_FILE=<> <DeepCSR_ROOT>/slurm/predict_job_array.q 
