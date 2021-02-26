@@ -47,7 +47,7 @@ class DeepCSRNetwork(nn.Module):
 
 
 
-#### MAIN NETOWORKS
+#### MAIN NETWORKS
 
 class MRIEncoderNetwork(nn.Module):    
     def __init__(self):
