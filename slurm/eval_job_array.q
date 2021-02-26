@@ -16,5 +16,5 @@ source ${SRC_DIR}/bracewell/setup.sh
 
 python eval.py user_config=${CONFIG} outputs.output_dir=${OUT_DIR} 
 
-# lunch command as ...
+# launch command as ...
 #sbatch --export=CONFIG=<>,OUT_DIR=<> <DeepCSR_ROOT>/slurm/eval_job_array.q 
