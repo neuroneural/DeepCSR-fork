@@ -187,7 +187,7 @@ class SubsamplePointcloud(object):
 class SubsamplePoints(object):
     ''' Points subsampling transformation class.
 
-    It subsamples the points data.
+    It subsamples the data points.
 
     Args:
         N (int): number of points to be subsampled
