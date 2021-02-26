@@ -36,6 +36,6 @@ inputs.rh_pial_path=${RH_PIAL_PATH} \
 inputs.rh_white_path=${RH_WHITE_PATH} 
 
 
-# lunch command as ...
+# launch command as ...
 #sbatch --array=[0-MAX_JOBS]%MAX_PAR --export=OUT_DIR=<>,IN_CSV_FILE=<> <DeepCSR_ROOT>/slurm/data_preprop_job_array.q 
 # example: sbatch --array=[1-2] --export=OUT_DIR=/scratch1/fon022/data_temp_npp/short/proc_data/,IN_CSV_FILE=/scratch1/fon022/data_temp_npp/short/image_surf_file.txt /scratch1/fon022/DeepCSR/slurm/data_preprop_job_array.q
