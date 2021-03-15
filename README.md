@@ -105,6 +105,8 @@ python eval.py user_config=<CONFIG> outputs.output_dir=<OUT_DIR>
 and its default configuration file is *./configs/eval.yaml*, and associated slurm job script is *./slurm/eval_job_array.q*.
 
 
+## Acknowledgment 
+This research was supported by [Maxwell plus](https://maxwellplus.com/).
 
 
 
