@@ -67,7 +67,9 @@ In summary, the main scripts are in the root directory, the default configuratio
 
 
 ### Preprocessing Data
-Before training a DeepCSR model, one need to compute implicit surface representations in a brain template space from a dataset of MRI and aligned cortical surface pairs. It can be done for a given subject as follows,
+The dataset used in the experiments is based on the [Alzheimer’s Disease Neuroimaging Initiative (ADNI) study](http://adni.loni.usc.edu/). You need to follow the instruction in their website, download the images according to image id described in the column <Image Data ID> in our data split file (*resources/DEEPCSR_DATA_SPLIT.csv*), and run FreeSurfer V6 cross-sectional pipeline to obtain pseudo-ground-truth surfaces.
+
+Then, before training a DeepCSR model, one need to compute implicit surface representations in a brain template space from this dataset of MRI and aligned cortical surface pairs. It can be done for a given subject as follows,
 ```
 python preprop.py outputs.output_dir=<OUT_DIR> \
     inputs.sample_id=<SAMPLE_ID> \
