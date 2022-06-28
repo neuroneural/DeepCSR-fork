@@ -55,4 +55,4 @@ RUN python3 -m pip install .
 RUN apt-get clean
 RUN pip cache purge
 RUN conda clean -a
-ENTRYPOINT ["/bin/bash/"]
+ENTRYPOINT ["/bin/bash"]
