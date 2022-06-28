@@ -38,7 +38,10 @@ WORKDIR /app
 COPY environment.yml .
 RUN conda env create -f environment.yml
 SHELL ["conda", "run", "-n", "topofit", "/bin/bash", "-c"]
-#RUN pip install torch-scatter -f https://data.pyg.org/whl/torch-1.11.0+cu113.html
+RUN git clone https://github.com/neuroneural/DeepCSR-fork.git
+WORKDIR /app/DeepCSR-fork/
+RUN git checkout tags/docker1
+RUN pip install torch-scatter -f https://data.pyg.org/whl/torch-1.11.0+cu113.html
 RUN apt-get clean
 RUN pip cache purge
 RUN conda clean -a
