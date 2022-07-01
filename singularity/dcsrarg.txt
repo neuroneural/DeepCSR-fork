@@ -1,0 +1,2 @@
+000002 /data/users2/washbee/hcp-plis-subj/996782/mri/orig/001.mgz /data/users2/washbee/hcp-plis-subj/996782/surf/lh.pial /data/users2/washbee/hcp-plis-subj/996782/surf/lh.white /data/users2/washbee/hcp-plis-subj/996782/surf/rh.pial /data/users2/washbee/hcp-plis-subj/996782/surf/rh.white
+000001 /data/users2/washbee/hcp-plis-subj/996782/mri/orig/001.mgz /data/users2/washbee/hcp-plis-subj/996782/surf/lh.pial /data/users2/washbee/hcp-plis-subj/996782/surf/lh.white /data/users2/washbee/hcp-plis-subj/996782/surf/rh.pial /data/users2/washbee/hcp-plis-subj/996782/surf/rh.white
