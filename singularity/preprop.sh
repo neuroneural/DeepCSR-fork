@@ -14,7 +14,7 @@ read -a pmdata <<< "$1"
 
 #Print the splitted words
 
-python preprop.py outputs.output_dir=outdir \
+python preprop.py outputs.output_dir=/data/users2/washbee/outdir \
     inputs.sample_id=${pmdata[0]}  \
     inputs.mri_vol_path=${pmdata[1]} \
     inputs.lh_pial_path=${pmdata[2]} \
