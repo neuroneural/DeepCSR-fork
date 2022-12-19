@@ -4,7 +4,7 @@
 #SBATCH --mem=40g
 #SBATCH -p qTRDGPUH
 #SBATCH --gres=gpu:V100:1
-#SBATCH -t 4-00:00
+#SBATCH -t 1-00:00
 #SBATCH -J deepcsr
 #SBATCH -e /data/users2/washbee/deepcsr/jobs/error%A.err
 #SBATCH -o /data/users2/washbee/deepcsr/jobs/out%A.out
@@ -22,7 +22,7 @@ sleep 5s
 source /usr/share/lmod/lmod/init/bash
 module use /application/ubuntumodules/localmodules
 module load singularity/3.10.2
-singularity exec --nv --bind /data,/data/users2/washbee/speedrun/DeepCSR-fork/:/deepcsr/,/data/users2/washbee/outdir:/subj /data/users2/washbee/containers/speedrun/deepcsr_sr.sif /deepcsr/singularity/train.sh &
+singularity exec --nv --bind /data,/data/users2/washbee/speedrun/DeepCSR-fork/:/deepcsr/,/data/users2/washbee/outdir:/subj /data/users2/washbee/containers/speedrun/deepcsr_sr.sif /deepcsr/singularity/predict.sh &
 
 wait
 
