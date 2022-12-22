@@ -9,12 +9,13 @@ cd /deepcsr/
 # Set comma as delimiter
 IFS=' '
 
-#Read the split words into an array based on space delimiter
-echo 1 is $1
-read -a pmdata <<< "$1"
+readarray -t a < /data/users2/washbee/speedrun/DeepCSR-fork/singularity/dcsrarg.txt
+#echo ${a[0]}
+read -a pmdata <<< "${a[$1]}"
+echo "pmdata" $pmdata ${pmdata[0]} ${pmdata[1]} 
 
 #Print the splitted words
-echo pmdata is ${pmdata[0]} ${pmdata[1]} ${pmdata[2]} ${pmdata[3]} ${pmdata[4]} ${pmdata[5]}
+
 
 python preprop.py outputs.output_dir=/data/users2/washbee/speedrun/deepcsr-preprocessed \
     inputs.sample_id=${pmdata[0]}  \
