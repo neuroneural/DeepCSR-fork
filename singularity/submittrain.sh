@@ -6,23 +6,20 @@
 #SBATCH --gres=gpu:V100:1
 #SBATCH -t 4-00:00
 #SBATCH -J deepcsr
-#SBATCH -e /data/users2/washbee/deepcsr/jobs/error%A.err
-#SBATCH -o /data/users2/washbee/deepcsr/jobs/out%A.out
+#SBATCH -e jobs/error%A.err
+#SBATCH -o jobs/out%A.out
 #SBATCH -A psy53c17
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=washbee1@student.gsu.edu
 #SBATCH --oversubscribe
 #SBATCH --exclude=arctrdgn002
 
-
-
-
 sleep 5s
 
 source /usr/share/lmod/lmod/init/bash
 module use /application/ubuntumodules/localmodules
 module load singularity/3.10.2
-singularity exec --nv --bind /data,/data/users2/washbee/speedrun/DeepCSR-fork/:/deepcsr/,/data/users2/washbee/outdir:/subj /data/users2/washbee/containers/speedrun/deepcsr_sr.sif /deepcsr/singularity/train.sh &
+singularity exec --nv --bind /data,/data/users2/washbee/speedrun/DeepCSR-fork/:/deepcsr/,/data/users2/washbee/speedrun/deepcsr-preprocessed:/subj /data/users2/washbee/containers/speedrun/deepcsr_sr.sif /deepcsr/singularity/train.sh &
 
 wait
 
