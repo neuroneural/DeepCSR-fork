@@ -1,0 +1,27 @@
+pmdata 377451 377451 /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+[2023-05-10 20:24:46,293][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 377451
+  mri_vol_path: /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed2
+  compress: true
+
+[2023-05-10 20:24:46,294][__main__][INFO] - 1 - Registering input images...

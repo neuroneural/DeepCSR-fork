@@ -1,0 +1,6 @@
+
+ArgumentError: activate does not accept more than one argument:
+['/data/users2/washbee/anaconda3/envs/', 'parallel']
+
+
+/opt/slurmnfs/slurmd/lhotse/job1918786/slurm_script: line 18: parallel: command not found

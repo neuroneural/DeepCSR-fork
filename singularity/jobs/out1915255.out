@@ -1,0 +1,86 @@
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 378857 378857 /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 377451 377451 /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+[2022-12-20 01:58:01,065][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 377451
+  mri_vol_path: /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /scratch1/fon022/DeepCSR/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 01:58:01,065][__main__][INFO] - 1 - Registering input images...
+[2022-12-20 01:58:01,087][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 378857
+  mri_vol_path: /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /scratch1/fon022/DeepCSR/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 01:58:01,087][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz 
+mri_convert /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz 
+reading from /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz...
+reading from /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz...
+[2022-12-20 01:58:03,088][__main__][INFO] - Image registration done in 0.3920760154724121 seconds
+[2022-12-20 01:58:03,088][__main__][INFO] - 2 - Converting and warping surfaces
+[2022-12-20 01:58:03,108][__main__][INFO] - Image registration done in 0.5190095901489258 seconds
+[2022-12-20 01:58:03,108][__main__][INFO] - 2 - Converting and warping surfaces

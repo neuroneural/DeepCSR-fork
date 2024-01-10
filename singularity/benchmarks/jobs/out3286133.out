@@ -1,0 +1,162 @@
+array is read
+[2023-07-06 22:31:58,920][__main__][INFO] - Predicting surfaces with DeepCSR
+Config:
+user_config: null
+inputs:
+  mri_id: 201818
+  mri_vol_path: /data/users2/washbee/speedrun/deepcsr-preprocessed/201818/mri.nii.gz
+  model_checkpoint: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth
+  model_surfaces:
+  - lh_pial
+  - lh_white
+  - rh_pial
+  - rh_white
+generator:
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  resolution: 256
+  points_batch_size: 1000000
+  isrpr_vol_post_process: true
+  isrpr_vol_smooth: 1.0
+  fix_topology: true
+  iso_surface_level: 0.0
+model:
+  hypercol: true
+  device: cuda:0
+outputs:
+  output_dir: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/
+  save_all: false
+
+[2023-07-06 22:32:01,603][__main__][INFO] - MRI /data/users2/washbee/speedrun/deepcsr-preprocessed/201818/mri.nii.gz read with torch.Size([1, 182, 218, 182]) dimensions in 2.6826 secs
+
+*********before loading model
+ 
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.57% free): 11811160064(total), 10461446144 (free), 1349713920 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+*********after loading model
+ 
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.27% free): 11811160064(total), 10425794560 (free), 1385365504 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+[2023-07-06 22:32:01,707][__main__][INFO] - 0.0978 secs for DeepCSR model setup:
+DeepCSRNetwork(
+  (encoder): HypercolumnNetwork(
+    (max_pool): MaxPool3d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (conv_in): Conv3d(1, 8, kernel_size=(3, 3, 3), stride=(1, 1, 1), padding=(1, 1, 1))
+    (conv_0): Conv3d(8, 16, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_1): Conv3d(16, 32, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_2): Conv3d(32, 64, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_3): Conv3d(64, 128, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (fc): Linear(in_features=4608, out_features=264, bias=True)
+    (point_pool): PointPooling()
+  )
+  (decoder): OCCNetDecoder(
+    (fc_p): Conv1d(3, 256, kernel_size=(1,), stride=(1,))
+    (block0): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block1): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block2): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block3): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block4): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (bn): CBatchNorm1d(
+      (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+      (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+      (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+    )
+    (fc_out): Conv1d(256, 4, kernel_size=(1,), stride=(1,))
+  )
+)
+[2023-07-06 22:32:01,708][__main__][INFO] - Total number of parameters: 5060188
+[2023-07-06 22:32:01,785][__main__][INFO] - Model weights at iteration 42000 and validation loss 2378.6959 loaded from /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth in 0.0767 secs
+
+
+
+
+
+model size: 19.325MB
+
+
+
+
+
+[2023-07-06 22:32:01,787][__main__][INFO] - predicting implicit surfaces ...
+[2023-07-06 22:32:01,979][__main__][INFO] - 16777216 query points generated to predict implicit surfaces

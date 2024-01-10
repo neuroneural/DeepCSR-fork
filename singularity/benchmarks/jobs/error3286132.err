@@ -1,0 +1,11 @@
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:354: FutureWarning: torch.cuda.max_memory_cached has been renamed to torch.cuda.max_memory_reserved
+  FutureWarning)
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:346: FutureWarning: torch.cuda.memory_cached has been renamed to torch.cuda.memory_reserved
+  FutureWarning)
+Error executing job with overrides: ['inputs.mri_id=201818', 'inputs.mri_vol_path=/data/users2/washbee/speedrun/deepcsr-preprocessed/201818/mri.nii.gz', 'inputs.model_checkpoint=/data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth', 'inputs.model_surfaces=[lh_pial,lh_white,rh_pial,rh_white]', 'generator.resolution=256', 'outputs.output_dir=/data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/', 'outputs.save_all=False']
+Traceback (most recent call last):
+  File "bm.predict.py", line 293, in predict_app
+    write_time2csv('DeepCSR',percentUsed=percentUsed, total=total, free=free, used=used,loading=True,memory=True)
+TypeError: write_time2csv() got an unexpected keyword argument 'percentUsed'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

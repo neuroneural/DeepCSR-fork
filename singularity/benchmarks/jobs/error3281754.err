@@ -1,0 +1,12 @@
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:354: FutureWarning: torch.cuda.max_memory_cached has been renamed to torch.cuda.max_memory_reserved
+  FutureWarning)
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:346: FutureWarning: torch.cuda.memory_cached has been renamed to torch.cuda.memory_reserved
+  FutureWarning)
+bm.predict.py:110: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)
+bm.predict.py:110: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)
+bm.predict.py:110: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)
+bm.predict.py:110: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)

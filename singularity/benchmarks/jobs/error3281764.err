@@ -1,0 +1,44 @@
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:354: FutureWarning: torch.cuda.max_memory_cached has been renamed to torch.cuda.max_memory_reserved
+  FutureWarning)
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:346: FutureWarning: torch.cuda.memory_cached has been renamed to torch.cuda.memory_reserved
+  FutureWarning)
+Error executing job with overrides: ['inputs.mri_id=', 'inputs.mri_vol_path=/data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz', 'inputs.model_checkpoint=/data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth', 'inputs.model_surfaces=[lh_pial,lh_white,rh_pial,rh_white]', 'generator.resolution=256', 'outputs.output_dir=/data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/', 'outputs.save_all=False']
+Traceback (most recent call last):
+  File "/home/users/washbee1/.local/lib/python3.7/site-packages/nibabel/loadsave.py", line 42, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "bm.predict.py", line 201, in predict_app
+    mri_header, mri_vox, mri_affine = mri_reader(cfg.inputs.mri_vol_path)
+  File "/deepcsr/src/data.py", line 115, in mri_reader
+    nib_mri = nibabel.load(path)
+  File "/home/users/washbee1/.local/lib/python3.7/site-packages/nibabel/loadsave.py", line 44, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:354: FutureWarning: torch.cuda.max_memory_cached has been renamed to torch.cuda.max_memory_reserved
+  FutureWarning)
+/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/torch/cuda/memory.py:346: FutureWarning: torch.cuda.memory_cached has been renamed to torch.cuda.memory_reserved
+  FutureWarning)
+Error executing job with overrides: ['inputs.mri_id=', 'inputs.mri_vol_path=/data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz', 'inputs.model_checkpoint=/data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth', 'inputs.model_surfaces=[lh_pial,lh_white,rh_pial,rh_white]', 'generator.resolution=256', 'outputs.output_dir=/data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/', 'outputs.save_all=False']
+Traceback (most recent call last):
+  File "/home/users/washbee1/.local/lib/python3.7/site-packages/nibabel/loadsave.py", line 42, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: '/data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "bm.predict.py", line 201, in predict_app
+    mri_header, mri_vox, mri_affine = mri_reader(cfg.inputs.mri_vol_path)
+  File "/deepcsr/src/data.py", line 115, in mri_reader
+    nib_mri = nibabel.load(path)
+  File "/home/users/washbee1/.local/lib/python3.7/site-packages/nibabel/loadsave.py", line 44, in load
+    raise FileNotFoundError(f"No such file or no access: '{filename}'")
+FileNotFoundError: No such file or no access: '/data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

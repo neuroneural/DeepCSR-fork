@@ -1,0 +1,13 @@
+Error executing job with overrides: ['outputs.output_dir=/data/users2/washbee/speedrun/deepcsr-preprocessed2', 'inputs.sample_id=377451', 'inputs.mri_vol_path=/data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz', 'inputs.lh_pial_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/lh.pial', 'inputs.lh_white_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/lh.white', 'inputs.rh_pial_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/rh.pial', 'inputs.rh_white_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/rh.white']
+Traceback (most recent call last):
+  File "preprop.py", line 137, in preprop_app
+    subprocess.call(['mri_convert', cfg.inputs.mri_vol_path, out_mri_vol_path])
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/subprocess.py", line 339, in call
+    with Popen(*popenargs, **kwargs) as p:
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/subprocess.py", line 800, in __init__
+    restore_signals, start_new_session)
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/subprocess.py", line 1551, in _execute_child
+    raise child_exception_type(errno_num, err_msg, err_filename)
+FileNotFoundError: [Errno 2] No such file or directory: 'mri_convert': 'mri_convert'
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

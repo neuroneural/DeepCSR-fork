@@ -1,0 +1,8 @@
+predict.py:93: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)
+predict.py:93: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)
+predict.py:93: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)
+predict.py:93: FutureWarning: `multichannel` is a deprecated argument name for `gaussian`. It will be removed in version 1.0. Please use `channel_axis` instead.
+  isrpr_vol = gaussian(isrpr_vol, sigma=cfg.generator.isrpr_vol_smooth, mode='nearest', multichannel=False)

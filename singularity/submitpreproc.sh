@@ -23,4 +23,3 @@ parallel singularity exec --bind /data,/data/users2/washbee/speedrun/DeepCSR-for
 wait
 
 sleep 5s
-

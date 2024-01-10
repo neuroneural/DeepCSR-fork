@@ -1,0 +1,148 @@
+[2022-12-30 20:43:58,796][__main__][INFO] - Training DeepCSR
+Config:
+user_config: null
+dataset:
+  path: /data/users2/washbee/speedrun/deepcsr-preprocessed/
+  train_split: /deepcsr/train.txt
+  val_split: /deepcsr/val.txt
+  surfaces:
+  - lh_pial
+  - lh_white
+  - rh_pial
+  - rh_white
+  implicit_rpr: sdf
+trainer:
+  img_batch_size: 15
+  points_per_image: 1024
+  train_log_interval: 10
+  checkpoint_interval: 2000
+  evaluate_interval: 2000
+  resume_checkpoint: null
+model:
+  hypercol: true
+  device: cuda:0
+optimizer:
+  name: Adam
+  kwargs:
+    lr: 0.0001
+lr_schedule:
+  name: null
+  kwargs: null
+outputs:
+  output_dir: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir
+
+[2022-12-30 20:43:58,800][__main__][INFO] - 732 subjects loaded for training
+[2022-12-30 20:43:58,802][__main__][INFO] - 58 subjects loaded for validation
+[2022-12-30 20:44:07,233][__main__][INFO] - DeepCSR model setup:
+DeepCSRNetwork(
+  (encoder): HypercolumnNetwork(
+    (max_pool): MaxPool3d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (conv_in): Conv3d(1, 8, kernel_size=(3, 3, 3), stride=(1, 1, 1), padding=(1, 1, 1))
+    (conv_0): Conv3d(8, 16, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_1): Conv3d(16, 32, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_2): Conv3d(32, 64, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_3): Conv3d(64, 128, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (fc): Linear(in_features=4608, out_features=264, bias=True)
+    (point_pool): PointPooling()
+  )
+  (decoder): OCCNetDecoder(
+    (fc_p): Conv1d(3, 256, kernel_size=(1,), stride=(1,))
+    (block0): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block1): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block2): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block3): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block4): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (bn): CBatchNorm1d(
+      (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+      (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+      (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+    )
+    (fc_out): Conv1d(256, 4, kernel_size=(1,), stride=(1,))
+  )
+)
+[2022-12-30 20:44:07,234][__main__][INFO] - Total number of parameters: 5060188
+[2022-12-30 20:44:07,234][__main__][INFO] - Loss setup:
+SDFL1Loss()
+[2022-12-30 20:44:07,235][__main__][INFO] - Optimizer setup:
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    eps: 1e-08
+    lr: 0.0001
+    weight_decay: 0
+)
+[2022-12-30 20:44:07,236][__main__][INFO] - LR Schedule setup:
+None
+[2022-12-30 20:44:07,240][__main__][INFO] - Tensorboard logs saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/tb_logs
+[2022-12-30 20:46:22,487][__main__][INFO] - Training: Ite=10, Loss=79996.5773, IOU=0.1889, AvgIteTime=13.52 secs

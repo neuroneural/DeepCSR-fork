@@ -1,0 +1,764 @@
+done
+[2023-06-28 15:22:32,343][__main__][INFO] - Fixed topology of surface lh_white using nighres in 35.3379 secs
+[2023-06-28 15:22:32,344][__main__][INFO] - extracting 0.0 iso-surface of surface lh_white...
+[2023-06-28 15:22:32,808][__main__][INFO] - Surface lh_white extracted in 0.2237 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/256540_lh_white.stl
+done
+[2023-06-28 15:22:34,648][__main__][INFO] - Fixed topology of surface rh_white using nighres in 37.5898 secs
+[2023-06-28 15:22:34,649][__main__][INFO] - extracting 0.0 iso-surface of surface rh_white...
+[2023-06-28 15:22:35,107][__main__][INFO] - Surface rh_white extracted in 0.2223 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/256540_rh_white.stl
+done
+done
+[2023-06-28 15:22:36,984][__main__][INFO] - Fixed topology of surface lh_pial using nighres in 39.9786 secs
+[2023-06-28 15:22:36,985][__main__][INFO] - extracting 0.0 iso-surface of surface lh_pial...
+[2023-06-28 15:22:37,337][__main__][INFO] - Surface lh_pial extracted in 0.2053 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/256540_lh_pial.stl
+[2023-06-28 15:22:37,620][__main__][INFO] - Fixed topology of surface rh_pial using nighres in 40.6129 secs
+[2023-06-28 15:22:37,621][__main__][INFO] - extracting 0.0 iso-surface of surface rh_pial...
+[2023-06-28 15:22:35,460][__main__][INFO] - Surface rh_pial extracted in 0.2285 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/255639_rh_pial.stl
+[2023-06-28 15:22:35,968][__main__][INFO] - Surfaces extracted in 50.2686 secs
+0 - override config
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.78% free): 11811160064(total), 11548622848 (free), 262537216 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - read MRI
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.75% free): 11811160064(total), 11545673728 (free), 265486336 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - setup model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.57% free): 11811160064(total), 10461446144 (free), 1349713920 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+
+
+0 - load model weights
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.27% free): 11811160064(total), 10425794560 (free), 1385365504 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+
+
+
+0 - generate grid of points at desired resolution
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.88% free): 11811160064(total), 10379657216 (free), 1431502848 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - implicit surface prediction in batches and resuing computed features
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.88% free): 11811160064(total), 10379657216 (free), 1431502848 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - after model prediction / generate meshes in parallel
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.73% free): 11811160064(total), 10243342336 (free), 1567817728 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+0 - timer statistics to disk
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.73% free): 11811160064(total), 10243342336 (free), 1567817728 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+[2023-06-28 15:22:35,969][__main__][INFO] - Timer summary:
+[2023-06-28 15:22:35,970][__main__][INFO] - 	ReadData => 2.8675 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	ModelSetup => 0.0721 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	ModelLoadWeights => 0.0791 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	ImplicitSurfacePrediction => 41.8922 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	MeshExtraction => 50.2686 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	Total => 95.2198 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	PostProcessingImplicictSurface => 3.1755 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.3635 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	lh_pial_TopologyFix => 38.6996 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2366 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.4322 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	lh_white_TopologyFix => 37.6978 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2367 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.6059 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	rh_pial_TopologyFix => 41.9820 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.2285 secs
+[2023-06-28 15:22:35,970][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.4398 secs
+[2023-06-28 15:22:35,971][__main__][INFO] - 	rh_white_TopologyFix => 38.6320 secs
+[2023-06-28 15:22:35,971][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.2360 secs
+[2023-06-28 15:22:35,971][__main__][INFO] - Total Surface prediction finished in 95.2198 seconds
+done
+[2023-06-28 15:22:39,006][__main__][INFO] - Fixed topology of surface lh_white using nighres in 37.4169 secs
+[2023-06-28 15:22:39,007][__main__][INFO] - extracting 0.0 iso-surface of surface lh_white...
+[2023-06-28 15:22:39,513][__main__][INFO] - Surface lh_white extracted in 0.2419 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/257845_lh_white.stl
+done
+used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - read MRI
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.80% free): 11811160064(total), 11550785536 (free), 260374528 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - setup model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.62% free): 11811160064(total), 10466557952 (free), 1344602112 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+
+
+0 - load model weights
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.31% free): 11811160064(total), 10430906368 (free), 1380253696 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+
+
+
+0 - generate grid of points at desired resolution
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - implicit surface prediction in batches and resuing computed features
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - after model prediction / generate meshes in parallel
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+0 - timer statistics to disk
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+[2023-06-28 15:22:38,353][__main__][INFO] - Timer summary:
+[2023-06-28 15:22:38,353][__main__][INFO] - 	ReadData => 2.8792 secs
+[2023-06-28 15:22:38,353][__main__][INFO] - 	ModelSetup => 0.0779 secs
+[2023-06-28 15:22:38,353][__main__][INFO] - 	ModelLoadWeights => 0.0740 secs
+[2023-06-28 15:22:38,353][__main__][INFO] - 	ImplicitSurfacePrediction => 41.9099 secs
+[2023-06-28 15:22:38,353][__main__][INFO] - 	MeshExtraction => 48.6594 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	Total => 93.6396 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	PostProcessingImplicictSurface => 3.0645 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.5819 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	lh_pial_TopologyFix => 39.9786 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2053 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.5048 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	lh_white_TopologyFix => 35.3379 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2237 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.5919 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	rh_pial_TopologyFix => 40.6129 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.1998 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.5409 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	rh_white_TopologyFix => 37.5898 secs
+[2023-06-28 15:22:38,354][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.2223 secs
+[2023-06-28 15:22:38,355][__main__][INFO] - Total Surface prediction finished in 93.6396 seconds
+done
+[2023-06-done
+done
+[2023-06-28 15:22:44,689][__main__][INFO] - Fixed topology of surface lh_white using nighres in 39.4565 secs
+[2023-06-28 15:22:44,690][__main__][INFO] - extracting 0.0 iso-surface of surface lh_white...
+[2023-06-28 15:22:45,046][__main__][INFO] - Fixed topology of surface rh_white using nighres in 39.7782 secs
+[2023-06-28 15:22:45,046][__main__][INFO] - extracting 0.0 iso-surface of surface rh_white...
+[2023-06-28 15:22:45,205][__main__][INFO] - Surface lh_white extracted in 0.2381 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/268850_lh_white.stl
+[2023-06-28 15:22:45,608][__main__][INFO] - Surface rh_white extracted in 0.3284 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/268850_rh_white.stl
+3-06-28 15:22:45,644][__main__][INFO] - Fixed topology of surface lh_pial using nighres in 44.9152 secs
+[2023-06-28 15:22:45,645][__main__][INFO] - extracting 0.0 iso-surface of surface lh_pial...
+[2023-06-28 15:22:46,061][__main__][INFO] - Surface lh_pial extracted in 0.2434 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/263436_lh_pial.stl
+[2023-06-28 15:22:46,267][__main__][INFO] - Fixed topology of surface rh_pial using nighres in 45.5037 secs
+[2023-06-28 15:22:46,268][__main__][INFO] - extracting 0.0 iso-surface of surface rh_pial...
+), 257359872 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - read MRI
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.80% free): 11811160064(total), 11550785536 (free), 260374528 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - setup model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.62% free): 11811160064(total), 10466557952 (free), 1344602112 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+
+
+0 - load model weights
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.31% free): 11811160064(total), 10430906368 (free), 1380253696 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+
+
+
+0 - generate grid of points at desired resolution
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - implicit surface prediction in batches and resuing computed features
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - after model prediction / generate meshes in parallel
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+0 - timer statistics to disk
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+[2023-06-28 15:22:45,448][__main__][INFO] - Timer summary:
+[2023-06-28 15:22:45,449][__main__][INFO] - 	ReadData => 2.9125 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	ModelSetup => 0.0782 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	ModelLoadWeights => 0.0744 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	ImplicitSurfacePrediction => 42.2109 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	MeshExtraction => 51.4539 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	Total => 96.7700 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	PostProcessingImplicictSurface => 3.0412 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.5941 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	lh_pial_TopologyFix => 42.7600 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2441 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.5197 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	lh_white_TopologyFix => 37.4169 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2419 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.5467 secs
+[2023-06-28 15:22:45,449][__main__][INFO] - 	rh_pial_TopologyFix => 42.9310 secs
+[2023-06-28 15:22:45,450][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.2398 secs
+[2023-06-28 15:22:45,450][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.5180 secs
+[2023-06-28 15:22:45,450][__main__][INFO] - 	rh_white_TopologyFix => 40.3238 secs
+[2023-06-28 15:22:45,450][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.2383 secs
+[2023-06-28 15:22:45,451][__main__][INFO] - Total Surface prediction finished in 96.7700 seconds
+done
+[2023-06-28 15:22:47,007][__main__][INFO] - Fixed topology of surface lh_white using nighres in 37.5170 secs
+[2023-06-28 15:22:47,008][__main__][INFO] - extracting 0.0 iso-surface of surface lh_white...
+done
+[2023-06-28 15:22:47,465][__main__][INFO] - Surface lh_white extracted in 0.2361 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/275645_lh_white.stl
+[2023-06-28 15:22:48,299][__main__][INFO] - Fixed topology of surface rh_white using nighres in 38.8094 secs
+[2023-06-28 15:22:48,299][__main__][INFO] - extracting 0.0 iso-surface of surface rh_white...
+[2023-06-28 15:22:48,726][__main__][INFO] - Surface rh_white extracted in 0.2313 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/275645_rh_white.stl
+
+done
+ 0
+
+
+
+
+0 - setup model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.57% free): 11811160064(total), 10461446144 (free), 1349713920 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+
+
+0 - load model weights
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.27% free): 11811160064(total), 10425794560 (free), 1385365504 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+
+
+
+0 - generate grid of points at desired resolution
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.88% free): 11811160064(total), 10379657216 (free), 1431502848 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - implicit surface prediction in batches and resuing computed features
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.88% free): 11811160064(total), 10379657216 (free), 1431502848 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - after model prediction / generate meshes in parallel
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.73% free): 11811160064(total), 10243342336 (free), 1567817728 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+0 - timer statistics to disk
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.73% free): 11811160064(total), 10243342336 (free), 1567817728 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+[2023-06-28 15:22:47,112][__main__][INFO] - Timer summary:
+[2023-06-28 15:22:47,112][__main__][INFO] - 	ReadData => 2.8001 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	ModelSetup => 0.0778 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	ModelLoadWeights => 0.0735 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	ImplicitSurfacePrediction => 41.6723 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	MeshExtraction => 53.7160 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	Total => 98.3798 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	PostProcessingImplicictSurface => 3.0529 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.6940 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	lh_pial_TopologyFix => 44.9152 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2434 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.4787 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	lh_white_TopologyFix => 40.7540 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2513 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.6937 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	rh_pial_TopologyFix => 45.5037 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.2355 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.5985 secs
+[2023-06-28 15:22:47,113][__main__][INFO] - 	rh_white_TopologyFix => 42.2153 secs
+[2023-06-28 15:22:47,114][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.2465 secs
+[2023-06-28 15:22:47,114][__main__][INFO] - Total Surface prediction finished in 98.3798 seconds
+done
+[2023-06-28 15:22:50,188][__main__][INFO] - Fixed topology of surface lh_pial using nighres in 40.6984 secs
+[2023-06-28 15:22:50,189][__main__][INFO] - extracting 0.0 iso-surface of surface lh_pial...
+[2023-06-28 15:22:50,563][__main__][INFO] - Surface lh_pial extracted in 0.2159 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/275645_lh_pial.stl
+done
+[2023-06-28 15:22:51,845][__main__][INFO] - Fixed topology of surface rh_pial using nighres in 42.3556 secs
+[2023-06-28 15:22:51,845][__main__][INFO] - extracting 0.0 iso-surface of surface rh_pial...
+.
+[2023-06-28 15:22:49,193][__main__][INFO] - Surface lh_white extracted in 0.2303 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/270332_lh_white.stl
+[2023-06-28 15:22:50,114][__main__][INFO] - Fixed topology of surface rh_pial using nighres in 44.8817 secs
+[2023-06-28 15:22:50,115][__main__][INFO] - extracting 0.0 iso-surface of surface rh_pial...
+[2023-06-28 15:22:50,801][__main__][INFO] - Surface rh_pial extracted in 0.5528 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/268850_rh_pial.stl
+[2023-06-28 15:22:50,591][__main__][INFO] - Surfaces extracted in 52.7941 secs
+0 - override config
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.82% free): 11811160064(total), 11553800192 (free), 257359872 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - read MRI
+Device 0: b'NVIDIA GeForce RTX 2080 [2023-06-28 15:22:50,784][__main__][INFO] - Surfaces extracted in 53.0728 secs
+0 - override config
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.82% free): 11811160064(total), 11553800192 (free), 257359872 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - read MRI
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.80% free): 11811160064(total), 11550785536 (free), 260374528 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - setup model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.62% free): 11811160064(total), 10466557952 (free), 1344602112 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+
+
+0 - load model weights
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.31% free): 11811160064(total), 10430906368 (free), 1380253696 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+
+
+
+0 - generate grid of points at desired resolution
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - implicit surface prediction in batches and resuing computed features
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - after model prediction / generate meshes in parallel
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+0 - timer statistics to disk
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+[2023-06-28 15:22:50,786][__main__][INFO] - Timer summary:
+[2023-06-28 15:22:50,787][__main__][INFO] - 	ReadData => 2.9335 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	ModelSetup => 0.0785 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	ModelLoadWeights => 0.0737 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	ImplicitSurfacePrediction => 41.9606 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	MeshExtraction => 53.0728 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	Total => 98.1586 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	PostProcessingImplicictSurface => 2.9492 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.5850 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	lh_pial_TopologyFix => 42.5343 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2246 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.5374 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	lh_white_TopologyFix => 39.7049 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2348 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.5806 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	rh_pial_TopologyFix => 44.9809 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.2324 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.5599 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	rh_white_TopologyFix => 42.4416 secs
+[2023-06-28 15:22:50,787][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.2612 secs
+[2023-06-28 15:22:50,789][__main__][INFO] - Total Surface prediction finished in 98.1586 seconds
+[2023-06-28 15:22:51,276][__main__][INFO] - Surfaces extracted in 53.8012 secs
+0 - override config
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.82% free): 11811160064(total), 11553800192 (free), 257359872 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - read MRI
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.80% free): 11811160064(total), 11550785536 (free), 260374528 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - setup model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.62% free): 11811160064(total), 10466557952 (free), 1344602112 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+
+
+0 - load model weights
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.31% free): 11811160064(total), 10430906368 (free), 1380253696 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+
+
+
+0 - generate grid of points at desired resolution
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - implicit surface prediction in batches and resuing computed features
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - after model prediction / generate meshes in parallel
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+0 - timer statistics to disk
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+[2023-06-28 15:22:51,278][__main__][INFO] - Timer summary:
+[2023-06-28 15:22:51,278][__main__][INFO] - 	ReadData => 2.8988 secs
+[2023-06-28 15:22:51,278][__main__][INFO] - 	ModelSetup => 0.0781 secs
+[2023-06-28 15:22:51,278][__main__][INFO] - 	ModelLoadWeights => 0.0736 secs
+[2023-06-28 15:22:51,278][__main__][INFO] - 	ImplicitSurfacePrediction => 41.8648 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	MeshExtraction => 53.8012 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	Total => 98.7571 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	PostProcessingImplicictSurface => 3.4747 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.6258 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	lh_pial_TopologyFix => 43.3232 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2183 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.5282 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	lh_white_TopologyFix => 39.4565 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2381 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.6467 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	rh_pial_TopologyFix => 44.8817 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.5528 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.5067 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	rh_white_TopologyFix => 39.7782 secs
+[2023-06-28 15:22:51,279][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.3284 secs
+[2023-06-28 15:22:51,280][__main__][INFO] - Total Surface prediction finished in 98.7571 seconds
+[2023-06-28 15:22:52,203][__main__][INFO] - Surface rh_pial extracted in 0.2169 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/275645_rh_pial.stl
+[2023-06-28 15:22:52,686][__main__][INFO] - Surfaces extracted in 50.5049 secs
+0 - override config
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.82% free): 11811160064(total), 11553800192 (free), 257359872 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - read MRI
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (97.80% free): 11811160064(total), 11550785536 (free), 260374528 (used)
+Max Memory occupied by tensors: 0
+Max Memory Cached: 0
+Current Memory occupied by tensors: 0
+Current Memory cached occupied by tensors: 0
+
+
+
+
+0 - setup model
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.62% free): 11811160064(total), 10466557952 (free), 1344602112 (used)
+Max Memory occupied by tensors: 29360640
+Max Memory Cached: 31457280
+Current Memory occupied by tensors: 29360640
+Current Memory cached occupied by tensors: 31457280
+
+
+
+
+0 - load model weights
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (88.31% free): 11811160064(total), 10430906368 (free), 1380253696 (used)
+Max Memory occupied by tensors: 49632256
+Max Memory Cached: 67108864
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 67108864
+
+
+
+
+0 - generate grid of points at desired resolution
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - implicit surface prediction in batches and resuing computed features
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (87.92% free): 11811160064(total), 10384769024 (free), 1426391040 (used)
+Max Memory occupied by tensors: 110390784
+Max Memory Cached: 113246208
+Current Memory occupied by tensors: 49632256
+Current Memory cached occupied by tensors: 113246208
+
+
+
+
+0 - after model prediction / generate meshes in parallel
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+0 - timer statistics to disk
+Device 0: b'NVIDIA GeForce RTX 2080 Ti', Memory : (86.77% free): 11811160064(total), 10248454144 (free), 1562705920 (used)
+Max Memory occupied by tensors: 9599518720
+Max Memory Cached: 9720299520
+Current Memory occupied by tensors: 71394304
+Current Memory cached occupied by tensors: 228589568
+
+
+
+
+[2023-06-28 15:22:52,687][__main__][INFO] - Timer summary:
+[2023-06-28 15:22:52,688][__main__][INFO] - 	ReadData => 2.8094 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	ModelSetup => 0.0781 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	ModelLoadWeights => 0.0743 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	ImplicitSurfacePrediction => 42.4800 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	MeshExtraction => 50.5049 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	Total => 95.9866 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	PostProcessingImplicictSurface => 2.8933 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.6437 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	lh_pial_TopologyFix => 40.6984 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2159 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.5354 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	lh_white_TopologyFix => 37.5170 secs
+[2023-06-28 15:22:52,688][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2361 secs
+[2023-06-28 15:22:52,689][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.5148 secs
+[2023-06-28 15:22:52,689][__main__][INFO] - 	rh_pial_TopologyFix => 42.3556 secs
+[2023-06-28 15:22:52,689][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.2169 secs
+[2023-06-28 15:22:52,689][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.4982 secs
+[2023-06-28 15:22:52,689][__main__][INFO] - 	rh_white_TopologyFix => 38.8094 secs
+[2023-06-28 15:22:52,689][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.2313 secs
+[2023-06-28 15:22:52,690][__main__][INFO] - Total Surface prediction finished in 95.9866 seconds

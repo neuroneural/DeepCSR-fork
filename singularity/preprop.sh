@@ -16,7 +16,7 @@ read -a pmdata <<< "$1"
 #Print the splitted words
 echo pmdata is ${pmdata[0]} ${pmdata[1]} ${pmdata[2]} ${pmdata[3]} ${pmdata[4]} ${pmdata[5]}
 
-python preprop.py outputs.output_dir=/data/users2/washbee/speedrun/deepcsr-preprocessed \
+python preprop.py outputs.output_dir=/data/users2/washbee/speedrun/deepcsr-prep-demo \
     inputs.sample_id=${pmdata[0]}  \
     inputs.mri_vol_path=${pmdata[1]} \
     inputs.lh_pial_path=${pmdata[2]} \

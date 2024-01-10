@@ -1,0 +1,41 @@
+-------- freesurfer-linux-ubuntu20_x86_64-7.3.2-20220804-6354275 --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /sysapps/ubuntu-applications/freesurfer/7.3.2/freesurfer
+FSFAST_HOME       /sysapps/ubuntu-applications/freesurfer/7.3.2/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /sysapps/ubuntu-applications/freesurfer/7.3.2/freesurfer/subjects
+MNI_DIR           /sysapps/ubuntu-applications/freesurfer/7.3.2/freesurfer/mni
+pmdata 377451 377451 /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+[2023-05-10 20:27:43,371][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 377451
+  mri_vol_path: /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed2
+  compress: true
+
+[2023-05-10 20:27:43,372][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed2/377451/mri.nii.gz 
+reading from /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed2/377451/mri.nii.gz...

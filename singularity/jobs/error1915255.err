@@ -1,0 +1,30 @@
+** ERROR (nifti_image_read): failed to find header file for '/scratch1/fon022/DeepCSR/resources/MNI152_T1_1mm.nii.gz'
+** ERROR (nifti_image_read): failed to find header file for '/scratch1/fon022/DeepCSR/resources/MNI152_T1_1mm.nii.gz'
+** ERROR (nifti_image_read): failed to find header file for '/scratch1/fon022/DeepCSR/resources/MNI152_T1_1mm.nii.gz'
+** ERROR (nifti_image_read): failed to find header file for '/scratch1/fon022/DeepCSR/resources/MNI152_T1_1mm.nii.gz'
+Error executing job with overrides: ['outputs.output_dir=/data/users2/washbee/speedrun/deepcsr-preprocessed', 'inputs.sample_id=378857', 'inputs.mri_vol_path=/data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz', 'inputs.lh_pial_path=/data/hcp-plis/drive01/378857/T1w/378857/surf/lh.pial', 'inputs.lh_white_path=/data/hcp-plis/drive01/378857/T1w/378857/surf/lh.white', 'inputs.rh_pial_path=/data/hcp-plis/drive01/378857/T1w/378857/surf/rh.pial', 'inputs.rh_white_path=/data/hcp-plis/drive01/378857/T1w/378857/surf/rh.white']
+Error executing job with overrides: ['outputs.output_dir=/data/users2/washbee/speedrun/deepcsr-preprocessed', 'inputs.sample_id=377451', 'inputs.mri_vol_path=/data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz', 'inputs.lh_pial_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/lh.pial', 'inputs.lh_white_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/lh.white', 'inputs.rh_pial_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/rh.pial', 'inputs.rh_white_path=/data/hcp-plis/drive01/377451/T1w/377451/surf/rh.white']
+Traceback (most recent call last):
+  File "preprop.py", line 152, in preprop_app
+    T = np.linalg.inv(np.loadtxt(out_affine_path))
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1067, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise IOError("%s not found." % path)
+OSError: /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/transform_affine.txt not found.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+Traceback (most recent call last):
+  File "preprop.py", line 152, in preprop_app
+    T = np.linalg.inv(np.loadtxt(out_affine_path))
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1067, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise IOError("%s not found." % path)
+OSError: /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/transform_affine.txt not found.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.

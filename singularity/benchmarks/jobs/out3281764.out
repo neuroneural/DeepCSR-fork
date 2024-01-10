@@ -1,0 +1,62 @@
+array is read
+[2023-07-03 00:10:46,681][__main__][INFO] - Predicting surfaces with DeepCSR
+Config:
+user_config: null
+inputs:
+  mri_id: ''
+  mri_vol_path: /data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz
+  model_checkpoint: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth
+  model_surfaces:
+  - lh_pial
+  - lh_white
+  - rh_pial
+  - rh_white
+generator:
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  resolution: 256
+  points_batch_size: 1000000
+  isrpr_vol_post_process: true
+  isrpr_vol_smooth: 1.0
+  fix_topology: true
+  iso_surface_level: 0.0
+model:
+  hypercol: true
+  device: cuda:0
+outputs:
+  output_dir: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/
+  save_all: false
+
+array is read
+[2023-07-03 00:10:49,454][__main__][INFO] - Predicting surfaces with DeepCSR
+Config:
+user_config: null
+inputs:
+  mri_id: ''
+  mri_vol_path: /data/users2/washbee/speedrun/deepcsr-preprocessed//mri.nii.gz
+  model_checkpoint: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth
+  model_surfaces:
+  - lh_pial
+  - lh_white
+  - rh_pial
+  - rh_white
+generator:
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  resolution: 256
+  points_batch_size: 1000000
+  isrpr_vol_post_process: true
+  isrpr_vol_smooth: 1.0
+  fix_topology: true
+  iso_surface_level: 0.0
+model:
+  hypercol: true
+  device: cuda:0
+outputs:
+  output_dir: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir-timing/checkpoints/bmtest-set/
+  save_all: false
+

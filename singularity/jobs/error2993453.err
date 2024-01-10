@@ -1,0 +1,2 @@
+WARNING: skipping mount of /data/users2/washbee/speedrun/deepcsr-outdir: stat /data/users2/washbee/speedrun/deepcsr-outdir: no such file or directory
+FATAL:   container creation failed: mount /data/users2/washbee/speedrun/deepcsr-outdir->/outdir error: while mounting /data/users2/washbee/speedrun/deepcsr-outdir: mount source /data/users2/washbee/speedrun/deepcsr-outdir doesn't exist

@@ -18,10 +18,11 @@ sleep 5s
 
 #echo ${a[0]}
 source /usr/share/lmod/lmod/init/bash
+source $FREESURFER_HOME/SetUpFreeSurfer.sh
 module use /application/ubuntumodules/localmodules
 module load singularity/3.10.2
 
-singularity exec --bind /data,/data/users2/washbee/speedrun/DeepCSR-fork:/deepcsr/,/data/users2/washbee/speedrun/deepcsr-outdir/:/outdir /data/users2/washbee/containers/speedrun/deepcsr_sr.sif /deepcsr/singularity/preprop-slurm.sh $SLURM_ARRAY_TASK_ID
+singularity exec --bind /data,/data/users2/washbee/speedrun/DeepCSR-fork:/deepcsr/,/data/users2/washbee/speedrun/deepcsr-preprocessed2/:/outdir /data/users2/washbee/containers/speedrun/deepcsr_sr.sif /deepcsr/singularity/preprop-slurm.sh $SLURM_ARRAY_TASK_ID
 
 sleep 5s
 

@@ -1,0 +1,18 @@
+
+mri_convert: missing output volume name
+** ERROR (nifti_image_read): failed to find header file for '/data/users2/washbee/speedrun/deepcsr-preprocessed/mri.nii.gz'
+** ERROR (nifti_image_read): failed to find header file for '/data/users2/washbee/speedrun/deepcsr-preprocessed/mri.nii.gz'
+Error executing job with overrides: ['outputs.output_dir=/data/users2/washbee/speedrun/deepcsr-preprocessed', 'inputs.sample_id=', 'inputs.mri_vol_path=', 'inputs.lh_pial_path=', 'inputs.lh_white_path=', 'inputs.rh_pial_path=', 'inputs.rh_white_path=']
+Traceback (most recent call last):
+  File "preprop.py", line 152, in preprop_app
+    T = np.linalg.inv(np.loadtxt(out_affine_path))
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/npyio.py", line 1067, in loadtxt
+    fh = np.lib._datasource.open(fname, 'rt', encoding=encoding)
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 193, in open
+    return ds.open(path, mode, encoding=encoding, newline=newline)
+  File "/opt/miniconda3/envs/deepcsr/lib/python3.7/site-packages/numpy/lib/_datasource.py", line 533, in open
+    raise IOError("%s not found." % path)
+OSError: /data/users2/washbee/speedrun/deepcsr-preprocessed/transform_affine.txt not found.
+
+Set the environment variable HYDRA_FULL_ERROR=1 for a complete stack trace.
+slurmstepd: error: *** JOB 1915845 ON arctrdagn001 CANCELLED AT 2022-12-20T03:36:22 ***

@@ -1,0 +1,81 @@
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 358144 358144 /data/hcp-plis/hdd06/358144/T1w/358144/mri/orig.mgz
+pmdata
+[2022-12-20 03:35:19,120][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: ''
+  mri_vol_path: ''
+  lh_pial_path: ''
+  lh_white_path: ''
+  rh_pial_path: ''
+  rh_white_path: ''
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 03:35:19,120][__main__][INFO] - 1 - Registering input images...
+[2022-12-20 03:35:19,136][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 358144
+  mri_vol_path: /data/hcp-plis/hdd06/358144/T1w/358144/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/hdd06/358144/T1w/358144/surf/lh.pial
+  lh_white_path: /data/hcp-plis/hdd06/358144/T1w/358144/surf/lh.white
+  rh_pial_path: /data/hcp-plis/hdd06/358144/T1w/358144/surf/rh.pial
+  rh_white_path: /data/hcp-plis/hdd06/358144/T1w/358144/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 03:35:19,137][__main__][INFO] - 1 - Registering input images...
+mri_convert  /data/users2/washbee/speedrun/deepcsr-preprocessed/mri.nii.gz 
+
+type mri_convert -u for usage
+
+mri_convert /data/hcp-plis/hdd06/358144/T1w/358144/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/358144/mri.nii.gz 
+[2022-12-20 03:35:19,753][__main__][INFO] - Image registration done in 0.6075060367584229 seconds
+[2022-12-20 03:35:19,753][__main__][INFO] - 2 - Converting and warping surfaces
+reading from /data/hcp-plis/hdd06/358144/T1w/358144/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/358144/mri.nii.gz...

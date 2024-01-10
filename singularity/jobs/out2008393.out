@@ -1,0 +1,225 @@
+[2023-01-04 14:53:00,591][__main__][INFO] - Predicting surfaces with DeepCSR
+Config:
+user_config: null
+inputs:
+  mri_id: 201818
+  mri_vol_path: /data/users2/washbee/speedrun/deepcsr-preprocessed/201818/mri.nii.gz
+  model_checkpoint: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth
+  model_surfaces:
+  - lh_pial
+  - lh_white
+  - rh_pial
+  - rh_white
+generator:
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  resolution: 256
+  points_batch_size: 1000000
+  isrpr_vol_post_process: true
+  isrpr_vol_smooth: 1.0
+  fix_topology: true
+  iso_surface_level: 0.0
+model:
+  hypercol: true
+  device: cuda:0
+outputs:
+  output_dir: /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/checkpoints/predict_debug/
+  save_all: false
+
+[2023-01-04 14:53:12,992][__main__][INFO] - MRI /data/users2/washbee/speedrun/deepcsr-preprocessed/201818/mri.nii.gz read with torch.Size([1, 182, 218, 182]) dimensions in 12.4003 secs
+[2023-01-04 14:53:13,171][__main__][INFO] - 0.1778 secs for DeepCSR model setup:
+DeepCSRNetwork(
+  (encoder): HypercolumnNetwork(
+    (max_pool): MaxPool3d(kernel_size=3, stride=2, padding=1, dilation=1, ceil_mode=False)
+    (conv_in): Conv3d(1, 8, kernel_size=(3, 3, 3), stride=(1, 1, 1), padding=(1, 1, 1))
+    (conv_0): Conv3d(8, 16, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_1): Conv3d(16, 32, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_2): Conv3d(32, 64, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (conv_3): Conv3d(64, 128, kernel_size=(3, 3, 3), stride=(2, 2, 2), padding=(1, 1, 1))
+    (fc): Linear(in_features=4608, out_features=264, bias=True)
+    (point_pool): PointPooling()
+  )
+  (decoder): OCCNetDecoder(
+    (fc_p): Conv1d(3, 256, kernel_size=(1,), stride=(1,))
+    (block0): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block1): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block2): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block3): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (block4): CResnetBlockConv1d(
+      (bn_0): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (bn_1): CBatchNorm1d(
+        (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+        (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+      )
+      (fc_0): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (fc_1): Conv1d(256, 256, kernel_size=(1,), stride=(1,))
+      (actvn): ReLU()
+    )
+    (bn): CBatchNorm1d(
+      (conv_gamma): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+      (conv_beta): Conv1d(512, 256, kernel_size=(1,), stride=(1,))
+      (bn): BatchNorm1d(256, eps=1e-05, momentum=0.1, affine=False, track_running_stats=True)
+    )
+    (fc_out): Conv1d(256, 4, kernel_size=(1,), stride=(1,))
+  )
+)
+[2023-01-04 14:53:13,172][__main__][INFO] - Total number of parameters: 5060188
+[2023-01-04 14:53:13,578][__main__][INFO] - Model weights at iteration 42000 and validation loss 2378.6959 loaded from /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/best_model.pth in 0.4055 secs
+[2023-01-04 14:53:13,578][__main__][INFO] - predicting implicit surfaces ...
+[2023-01-04 14:53:13,909][__main__][INFO] - 16777216 query points generated to predict implicit surfaces
+[2023-01-04 14:53:32,859][__main__][INFO] - predicted 9/17 batches of query points in 19.2809 secs
+[2023-01-04 14:53:45,826][__main__][INFO] - Implicit surface prediction of shape (256, 256, 256, 4) computed in 32.1700 secs
+[2023-01-04 14:53:45,827][__main__][INFO] - extracting meshes...
+[2023-01-04 14:53:46,417][__main__][INFO] - Post-processing predicted implicit surface representation for surface lh_pial ...
+[2023-01-04 14:53:46,684][__main__][INFO] - Post-processing predicted implicit surface representation for surface lh_white ...
+[2023-01-04 14:53:47,017][__main__][INFO] - Post-processing predicted implicit surface representation for surface rh_pial ...
+[2023-01-04 14:53:47,329][__main__][INFO] - Post-processing predicted implicit surface representation for surface rh_white ...
+[2023-01-04 14:53:49,383][__main__][INFO] - Post-processed predicted implicit surface representation for surface lh_pial has (133, 220, 190) voxels and was computed in 2.9652 secs
+[2023-01-04 14:53:49,385][__main__][INFO] - Smoothing predicted implicit surface representation for surface lh_pial with Gaussian kernel radius of 1.0...
+[2023-01-04 14:53:49,543][__main__][INFO] - Smoothed predicted implicit surface for lh_pial in 0.1585 secs
+[2023-01-04 14:53:49,636][__main__][INFO] - Post-processed predicted implicit surface representation for surface lh_white has (124, 216, 176) voxels and was computed in 2.9513 secs
+[2023-01-04 14:53:49,637][__main__][INFO] - Smoothing predicted implicit surface representation for surface lh_white with Gaussian kernel radius of 1.0...
+[2023-01-04 14:53:49,742][__main__][INFO] - Smoothed predicted implicit surface for lh_white in 0.1049 secs
+[2023-01-04 14:53:49,753][__main__][INFO] - Post-processed predicted implicit surface representation for surface rh_pial has (126, 220, 196) voxels and was computed in 2.7354 secs
+[2023-01-04 14:53:49,754][__main__][INFO] - Smoothing predicted implicit surface representation for surface rh_pial with Gaussian kernel radius of 1.0...
+[2023-01-04 14:53:49,871][__main__][INFO] - Smoothed predicted implicit surface for rh_pial in 0.1175 secs
+[2023-01-04 14:53:50,057][__main__][INFO] - Post-processed predicted implicit surface representation for surface rh_white has (120, 213, 184) voxels and was computed in 2.7274 secs
+[2023-01-04 14:53:50,058][__main__][INFO] - Smoothing predicted implicit surface representation for surface rh_white with Gaussian kernel radius of 1.0...
+[2023-01-04 14:53:50,185][__main__][INFO] - Smoothed predicted implicit surface for rh_white in 0.1274 secs
+[2023-01-04 14:54:04,542][__main__][INFO] - fixing topology of surface with nighres toolbox...
+[2023-01-04 14:54:04,542][__main__][INFO] - fixing topology of surface with nighres toolbox...
+[2023-01-04 14:54:04,542][__main__][INFO] - fixing topology of surface with nighres toolbox...
+[2023-01-04 14:54:04,542][__main__][INFO] - fixing topology of surface with nighres toolbox...
+
+Topology Correction
+Topology Correction
+Topology Correction
+
+
+
+Topology Correction
+Opening LUT: java.io.FileInputStream@533ddba
+Opening LUT: java.io.FileInputStream@533ddba
+Opening LUT: java.io.FileInputStream@533ddba
+Opening LUT: java.io.FileInputStream@533ddba
+Simple points: 2537750
+Simple points: 2537750
+Simple points: 2537750
+Simple points: 2537750
+intialize from bounding box
+intialize from bounding box
+intialize from min levelset
+intialize from min levelset
+initialization
+initialization
+initialization
+initialization
+fast marching correction (levelsets)
+fast marching correction (levelsets)
+fast marching correction (levelsets)
+fast marching correction (levelsets)
+init
+init
+init
+init
+done
+done
+[2023-01-04 14:54:34,715][__main__][INFO] - Fixed topology of surface rh_white using nighres in 30.1719 secs
+[2023-01-04 14:54:34,716][__main__][INFO] - extracting 0.0 iso-surface of surface rh_white...
+[2023-01-04 14:54:35,049][__main__][INFO] - Fixed topology of surface lh_white using nighres in 30.5063 secs
+[2023-01-04 14:54:35,050][__main__][INFO] - extracting 0.0 iso-surface of surface lh_white...
+[2023-01-04 14:54:35,263][__main__][INFO] - Surface rh_white extracted in 0.2801 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/checkpoints/predict_debug/201818_rh_white.stl
+[2023-01-04 14:54:35,578][__main__][INFO] - Surface lh_white extracted in 0.2684 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/checkpoints/predict_debug/201818_lh_white.stl
+done
+[2023-01-04 14:54:37,821][__main__][INFO] - Fixed topology of surface rh_pial using nighres in 33.2782 secs
+[2023-01-04 14:54:37,822][__main__][INFO] - extracting 0.0 iso-surface of surface rh_pial...
+done
+[2023-01-04 14:54:38,219][__main__][INFO] - Surface rh_pial extracted in 0.2285 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/checkpoints/predict_debug/201818_rh_pial.stl
+[2023-01-04 14:54:39,094][__main__][INFO] - Fixed topology of surface lh_pial using nighres in 34.5508 secs
+[2023-01-04 14:54:39,094][__main__][INFO] - extracting 0.0 iso-surface of surface lh_pial...
+[2023-01-04 14:54:39,474][__main__][INFO] - Surface lh_pial extracted in 0.2173 secs and saved to /data/users2/washbee/speedrun/outputdirs/deepcsr-output_dir/checkpoints/predict_debug/201818_lh_pial.stl
+[2023-01-04 14:54:40,104][__main__][INFO] - Surfaces extracted in 54.2770 secs
+[2023-01-04 14:54:40,104][__main__][INFO] - Timer summary:
+[2023-01-04 14:54:40,106][__main__][INFO] - 	ReadData => 12.4003 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	ModelSetup => 0.1778 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	ModelLoadWeights => 0.4055 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	ImplicitSurfacePrediction => 32.1700 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	MeshExtraction => 54.2770 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	Total => 99.5131 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	PostProcessingImplicictSurface => 2.7274 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	lh_pial_ImplicictSurfaceSmooth => 0.1585 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	lh_pial_TopologyFix => 34.5508 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	lh_pial_IsoSurfaceExtraction => 0.2173 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	lh_white_ImplicictSurfaceSmooth => 0.1049 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	lh_white_TopologyFix => 30.5063 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	lh_white_IsoSurfaceExtraction => 0.2684 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	rh_pial_ImplicictSurfaceSmooth => 0.1175 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	rh_pial_TopologyFix => 33.2782 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	rh_pial_IsoSurfaceExtraction => 0.2285 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	rh_white_ImplicictSurfaceSmooth => 0.1274 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	rh_white_TopologyFix => 30.1719 secs
+[2023-01-04 14:54:40,106][__main__][INFO] - 	rh_white_IsoSurfaceExtraction => 0.2801 secs
+[2023-01-04 14:54:40,107][__main__][INFO] - Total Surface prediction finished in 99.5131 seconds

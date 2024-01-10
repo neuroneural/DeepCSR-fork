@@ -1,0 +1,1991 @@
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 389357 389357 /data/hcp-plis/drive01/389357/T1w/389357/mri/orig.mgz
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 381543 381543 /data/hcp-plis/drive01/381543/T1w/381543/mri/orig.mgz
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 387959 387959 /data/hcp-plis/drive01/387959/T1w/387959/mri/orig.mgz
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 382242 382242 /data/hcp-plis/drive01/382242/T1w/382242/mri/orig.mgz
+pmdata 385450 385450 /data/hcp-plis/drive01/385450/T1w/385450/mri/orig.mgz
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 386250 386250 /data/hcp-plis/drive01/386250/T1w/386250/mri/orig.mgz
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 377451 377451 /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 378857 378857 /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+-------- freesurfer-linux-centos7_x86_64-dev-20221114-585f56b --------
+Setting up environment for FreeSurfer/FS-FAST (and FSL)
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+FREESURFER_HOME   /data/users2/washbee/freesurfer
+FSFAST_HOME       /data/users2/washbee/freesurfer/fsfast
+FSF_OUTPUT_FORMAT nii.gz
+SUBJECTS_DIR      /data/users2/washbee/freesurfer/subjects
+pmdata 381038 381038 /data/hcp-plis/drive01/381038/T1w/381038/mri/orig.mgz
+pmdata 379657 379657 /data/hcp-plis/drive01/379657/T1w/379657/mri/orig.mgz
+MNI_DIR           /data/users2/washbee/freesurfer/mni
+pmdata 380036 380036 /data/hcp-plis/drive01/380036/T1w/380036/mri/orig.mgz
+[2022-12-20 02:57:05,324][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 389357
+  mri_vol_path: /data/hcp-plis/drive01/389357/T1w/389357/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/389357/T1w/389357/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/389357/T1w/389357/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/389357/T1w/389357/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/389357/T1w/389357/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,324][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/389357/T1w/389357/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz 
+[2022-12-20 02:57:05,413][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 381543
+  mri_vol_path: /data/hcp-plis/drive01/381543/T1w/381543/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/381543/T1w/381543/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/381543/T1w/381543/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/381543/T1w/381543/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/381543/T1w/381543/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,414][__main__][INFO] - 1 - Registering input images...
+[2022-12-20 02:57:05,416][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 387959
+  mri_vol_path: /data/hcp-plis/drive01/387959/T1w/387959/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/387959/T1w/387959/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/387959/T1w/387959/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/387959/T1w/387959/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/387959/T1w/387959/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,416][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/381543/T1w/381543/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz 
+mri_convert /data/hcp-plis/drive01/387959/T1w/387959/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz 
+[2022-12-20 02:57:05,477][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 382242
+  mri_vol_path: /data/hcp-plis/drive01/382242/T1w/382242/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/382242/T1w/382242/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/382242/T1w/382242/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/382242/T1w/382242/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/382242/T1w/382242/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,478][__main__][INFO] - 1 - Registering input images...
+[2022-12-20 02:57:05,484][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 385450
+  mri_vol_path: /data/hcp-plis/drive01/385450/T1w/385450/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/385450/T1w/385450/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/385450/T1w/385450/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/385450/T1w/385450/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/385450/T1w/385450/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,485][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/382242/T1w/382242/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz 
+mri_convert /data/hcp-plis/drive01/385450/T1w/385450/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz 
+[2022-12-20 02:57:05,532][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 377451
+  mri_vol_path: /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/377451/T1w/377451/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,532][__main__][INFO] - 1 - Registering input images...
+[2022-12-20 02:57:05,533][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 386250
+  mri_vol_path: /data/hcp-plis/drive01/386250/T1w/386250/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/386250/T1w/386250/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/386250/T1w/386250/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/386250/T1w/386250/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/386250/T1w/386250/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,534][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz 
+mri_convert /data/hcp-plis/drive01/386250/T1w/386250/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz 
+[2022-12-20 02:57:05,628][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 381038
+  mri_vol_path: /data/hcp-plis/drive01/381038/T1w/381038/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/381038/T1w/381038/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/381038/T1w/381038/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/381038/T1w/381038/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/381038/T1w/381038/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,628][__main__][INFO] - 1 - Registering input images...
+[2022-12-20 02:57:05,629][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 379657
+  mri_vol_path: /data/hcp-plis/drive01/379657/T1w/379657/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/379657/T1w/379657/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/379657/T1w/379657/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/379657/T1w/379657/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/379657/T1w/379657/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,629][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/381038/T1w/381038/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz 
+mri_convert /data/hcp-plis/drive01/379657/T1w/379657/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz 
+[2022-12-20 02:57:05,652][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 378857
+  mri_vol_path: /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/378857/T1w/378857/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,653][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz 
+[2022-12-20 02:57:05,671][__main__][INFO] - Data Preprocessing Routine
+Config:
+inputs:
+  sample_id: 380036
+  mri_vol_path: /data/hcp-plis/drive01/380036/T1w/380036/mri/orig.mgz
+  lh_pial_path: /data/hcp-plis/drive01/380036/T1w/380036/surf/lh.pial
+  lh_white_path: /data/hcp-plis/drive01/380036/T1w/380036/surf/lh.white
+  rh_pial_path: /data/hcp-plis/drive01/380036/T1w/380036/surf/rh.pial
+  rh_white_path: /data/hcp-plis/drive01/380036/T1w/380036/surf/rh.white
+registration:
+  only_rigid: false
+  template_path: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+sampling:
+  num_points: 4000000
+  bbox_ratio: 0.1
+  bbox_size:
+  - 192.0
+  - 228.0
+  - 192.0
+  point_pertub_sigma: 1.0
+  distance_method: point2center
+outputs:
+  output_dir: /data/users2/washbee/speedrun/deepcsr-preprocessed
+  compress: true
+
+[2022-12-20 02:57:05,672][__main__][INFO] - 1 - Registering input images...
+mri_convert /data/hcp-plis/drive01/380036/T1w/380036/mri/orig.mgz /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz 
+reading from /data/hcp-plis/drive01/389357/T1w/389357/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz...
+reading from /data/hcp-plis/drive01/386250/T1w/386250/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz...
+reading from /data/hcp-plis/drive01/377451/T1w/377451/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz...
+reading from /data/hcp-plis/drive01/385450/T1w/385450/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz...
+reading from /data/hcp-plis/drive01/387959/T1w/387959/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz...
+reading from /data/hcp-plis/drive01/382242/T1w/382242/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz...
+reading from /data/hcp-plis/drive01/381543/T1w/381543/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz...
+reading from /data/hcp-plis/drive01/381038/T1w/381038/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz...
+reading from /data/hcp-plis/drive01/380036/T1w/380036/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz...
+reading from /data/hcp-plis/drive01/378857/T1w/378857/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz...
+reading from /data/hcp-plis/drive01/379657/T1w/379657/mri/orig.mgz...
+TR=2400.00, TE=0.00, TI=0.00, flip angle=0.00
+i_ras = (-1, 0, 0)
+j_ras = (0, 0, -1)
+k_ras = (0, 1, 0)
+writing to /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz...
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9073	-0.0069	0.0083	0.0257
+0.0242	0.9630	0.0397	0.2679
+0.0150	-0.0527	0.8591	-1.2607
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.1021	0.0073	-0.0110	-0.0442
+-0.0269	1.0356	-0.0476	-0.3368
+-0.0209	0.0634	1.1613	1.4475
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9073	-0.0069	0.0083	0.0257
+0.0242	0.9630	0.0397	0.2679
+0.0150	-0.0527	0.8591	-1.2607
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.1021	0.0073	-0.0110	-0.0442
+-0.0269	1.0356	-0.0476	-0.3368
+-0.0209	0.0634	1.1613	1.4475
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9093	-0.0017	-0.0003	-0.2892
+0.0126	0.9628	0.0568	0.5893
+-0.0021	-0.0532	0.8584	-0.9760
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0997	0.0019	0.0002	0.3171
+-0.0145	1.0348	-0.0685	-0.6809
+0.0018	0.0641	1.1607	1.0956
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9093	-0.0017	-0.0003	-0.2892
+0.0126	0.9628	0.0568	0.5893
+-0.0021	-0.0532	0.8584	-0.9760
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0997	0.0019	0.0002	0.3171
+-0.0145	1.0348	-0.0685	-0.6809
+0.0018	0.0641	1.1607	1.0956
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.8967	-0.0030	0.0000	-0.1905
+0.0085	0.9560	0.0468	0.2621
+-0.0081	-0.0623	0.8499	-1.2257
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.1152	0.0035	-0.0002	0.2112
+-0.0105	1.0423	-0.0574	-0.3456
+0.0099	0.0764	1.1724	1.4189
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 9 sec
+Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/mri.nii.gz
+[2022-12-20 02:59:17,694][__main__][INFO] - Image registration done in 131.32563591003418 seconds
+[2022-12-20 02:59:17,695][__main__][INFO] - 2 - Converting and warping surfaces
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/lh_pial.stl as a surface
+[2022-12-20 02:59:19,098][__main__][INFO] - Surface lh_pial converted and warped in 1.3973479270935059 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/lh_white.stl as a surface
+[2022-12-20 02:59:20,225][__main__][INFO] - Surface lh_white converted and warped in 1.1267199516296387 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/rh_pial.stl as a surface
+[2022-12-20 02:59:21,393][__main__][INFO] - Surface rh_pial converted and warped in 1.167099952697754 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/rh_white.stl as a surface
+[2022-12-20 02:59:22,543][__main__][INFO] - Surface rh_white converted and warped in 1.1505062580108643 seconds
+[2022-12-20 02:59:22,544][__main__][INFO] - All surfaces conversion and warping done in 4.848912000656128 seconds
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9294	-0.0196	-0.0175	0.0312
+0.0365	0.9618	0.0180	-0.4636
+-0.0020	0.0162	0.9077	-0.5180
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0752	0.0215	0.0203	-0.0130
+-0.0408	1.0392	-0.0214	0.4720
+0.0030	-0.0185	1.1021	0.5623
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9294	-0.0196	-0.0175	0.0312
+0.0365	0.9618	0.0180	-0.4636
+-0.0020	0.0162	0.9077	-0.5180
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0752	0.0215	0.0203	-0.0130
+-0.0408	1.0392	-0.0214	0.4720
+0.0030	-0.0185	1.1021	0.5623
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9359	-0.0188	-0.0101	0.2164
+0.0406	0.9684	0.0203	-0.1088
+-0.0114	0.0160	0.9092	-0.9372
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0677	0.0205	0.0114	-0.2181
+-0.0451	1.0321	-0.0236	0.1000
+0.0142	-0.0179	1.1005	1.0263
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9359	-0.0188	-0.0101	0.2164
+0.0406	0.9684	0.0203	-0.1088
+-0.0114	0.0160	0.9092	-0.9372
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0677	0.0205	0.0114	-0.2181
+-0.0451	1.0321	-0.0236	0.1000
+0.0142	-0.0179	1.1005	1.0263
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9185	-0.0176	-0.0119	0.3190
+0.0533	0.9548	0.0192	-0.1571
+-0.0026	0.0199	0.9105	-0.8538
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0876	0.0197	0.0138	-0.3321
+-0.0608	1.0467	-0.0229	0.1643
+0.0044	-0.0228	1.0988	0.9331
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 16 sec
+Have a good day !
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9217	0.0103	0.0264	0.0646
+-0.0072	0.9556	0.0298	0.4933
+0.0053	-0.0158	0.8697	-2.4273
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0850	-0.0122	-0.0326	-0.1431
+0.0084	1.0458	-0.0361	-0.6040
+-0.0065	0.0191	1.1493	2.7808
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9217	0.0103	0.0264	0.0646
+-0.0072	0.9556	0.0298	0.4933
+0.0053	-0.0158	0.8697	-2.4273
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0850	-0.0122	-0.0326	-0.1431
+0.0084	1.0458	-0.0361	-0.6040
+-0.0065	0.0191	1.1493	2.7808
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9214	0.0047	0.0053	-0.1423
+-0.0302	0.9625	0.0071	0.5844
+-0.0197	-0.0157	0.8625	-1.8310
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0850	-0.0054	-0.0066	0.1454
+0.0338	1.0387	-0.0087	-0.6182
+0.0254	0.0187	1.1592	2.1151
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9214	0.0047	0.0053	-0.1423
+-0.0302	0.9625	0.0071	0.5844
+-0.0197	-0.0157	0.8625	-1.8310
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0850	-0.0054	-0.0066	0.1454
+0.0338	1.0387	-0.0087	-0.6182
+0.0254	0.0187	1.1592	2.1151
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9104	0.0096	0.0088	0.0317
+-0.0382	0.9495	0.0046	0.2830
+-0.0171	-0.0162	0.8602	-2.0045
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0977	-0.0112	-0.0112	-0.0541
+0.0441	1.0526	-0.0061	-0.3114
+0.0227	0.0197	1.1622	2.3234
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 17 sec
+Have a good day !
+[2022-12-20 02:59:23,986][__main__][INFO] - 3 - Generating point clouds
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/mri.nii.gz
+[2022-12-20 02:59:24,661][__main__][INFO] - Image registration done in 138.1514229774475 seconds
+[2022-12-20 02:59:24,661][__main__][INFO] - 2 - Converting and warping surfaces
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9623	0.0084	-0.0059	0.3245
+-0.0103	1.0284	0.0350	2.0649
+-0.0010	-0.1064	0.9022	-1.9589
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0391	-0.0078	0.0071	-0.3074
+0.0104	0.9684	-0.0375	-2.0765
+0.0024	0.1142	1.1040	1.9259
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9623	0.0084	-0.0059	0.3245
+-0.0103	1.0284	0.0350	2.0649
+-0.0010	-0.1064	0.9022	-1.9589
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0391	-0.0078	0.0071	-0.3074
+0.0104	0.9684	-0.0375	-2.0765
+0.0024	0.1142	1.1040	1.9259
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9668	-0.0028	-0.0187	-0.0481
+-0.0214	1.0319	0.0743	2.4141
+0.0087	-0.1093	0.9032	-1.5605
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0342	0.0050	0.0210	0.0706
+0.0219	0.9608	-0.0786	-2.4411
+-0.0073	0.1162	1.0974	1.4318
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9668	-0.0028	-0.0187	-0.0481
+-0.0214	1.0319	0.0743	2.4141
+0.0087	-0.1093	0.9032	-1.5605
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0342	0.0050	0.0210	0.0706
+0.0219	0.9608	-0.0786	-2.4411
+-0.0073	0.1162	1.0974	1.4318
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9656	0.0032	-0.0084	0.0242
+-0.0150	1.0335	0.0680	2.8352
+0.0091	-0.1199	0.9041	-1.7108
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0355	-0.0021	0.0097	-0.0024
+0.0156	0.9592	-0.0720	-2.8431
+-0.0084	0.1272	1.0965	1.5153
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 19 sec
+Have a good day !
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/lh_pial.stl as a surface
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/mri.nii.gz
+[2022-12-20 02:59:25,602][__main__][INFO] - Image registration done in 139.07423281669617 seconds
+[2022-12-20 02:59:25,603][__main__][INFO] - 2 - Converting and warping surfaces
+[2022-12-20 02:59:26,078][__main__][INFO] - Surface lh_pial converted and warped in 1.412212610244751 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/lh_pial.stl as a surface
+[2022-12-20 02:59:26,603][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/pointcloud.train.npz
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/mri.nii.gz
+[2022-12-20 02:59:26,836][__main__][INFO] - Image registration done in 140.41919231414795 seconds
+[2022-12-20 02:59:26,836][__main__][INFO] - 2 - Converting and warping surfaces
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/lh_white.stl as a surface
+[2022-12-20 02:59:27,039][__main__][INFO] - Surface lh_pial converted and warped in 1.4312160015106201 seconds
+[2022-12-20 02:59:27,546][__main__][INFO] - Surface lh_white converted and warped in 1.4677541255950928 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/lh_pial.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/lh_white.stl as a surface
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9311	-0.0156	-0.0037	-0.4160
+0.0107	0.9718	0.0199	0.4604
+-0.0122	-0.0296	0.8476	-1.5007
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0739	0.0173	0.0042	0.4451
+-0.0122	1.0281	-0.0242	-0.5147
+0.0150	0.0362	1.1790	1.7589
+0.0000	-0.0000	-0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9311	-0.0156	-0.0037	-0.4160
+0.0107	0.9718	0.0199	0.4604
+-0.0122	-0.0296	0.8476	-1.5007
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0739	0.0173	0.0042	0.4451
+-0.0122	1.0281	-0.0242	-0.5147
+0.0150	0.0362	1.1790	1.7589
+0.0000	-0.0000	-0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9353	-0.0114	-0.0054	-0.3321
+0.0180	0.9754	0.0254	0.1635
+0.0081	-0.0283	0.8605	-1.4858
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0688	0.0127	0.0063	0.3622
+-0.0194	1.0241	-0.0303	-0.2189
+-0.0107	0.0336	1.1610	1.7160
+0.0000	-0.0000	-0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9353	-0.0114	-0.0054	-0.3321
+0.0180	0.9754	0.0254	0.1635
+0.0081	-0.0283	0.8605	-1.4858
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0688	0.0127	0.0063	0.3622
+-0.0194	1.0241	-0.0303	-0.2189
+-0.0107	0.0336	1.1610	1.7160
+0.0000	-0.0000	-0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9231	-0.0143	-0.0017	-0.5027
+0.0259	0.9632	0.0160	0.4776
+0.0108	-0.0289	0.8506	-1.2559
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0829	0.0161	0.0018	0.5390
+-0.0288	1.0372	-0.0196	-0.5344
+-0.0147	0.0350	1.1750	1.4516
+-0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 22 sec
+Have a good day !
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/rh_pial.stl as a surface
+[2022-12-20 02:59:28,496][__main__][INFO] - Surface lh_white converted and warped in 1.4564850330352783 seconds
+[2022-12-20 02:59:28,682][__main__][INFO] - Surface lh_pial converted and warped in 1.8403422832489014 seconds
+[2022-12-20 02:59:28,819][__main__][INFO] - Point cloud sampled for train split in 4.83318829536438 seconds
+[2022-12-20 02:59:29,080][__main__][INFO] - Surface rh_pial converted and warped in 1.5334231853485107 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/rh_pial.stl as a surface
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9260	-0.0095	0.0059	-0.4320
+0.0305	0.9604	0.0072	0.4291
+0.0012	-0.0139	0.8952	-0.8832
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0796	0.0105	-0.0072	0.4555
+-0.0343	1.0408	-0.0081	-0.4686
+-0.0019	0.0161	1.1170	0.9788
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9260	-0.0095	0.0059	-0.4320
+0.0305	0.9604	0.0072	0.4291
+0.0012	-0.0139	0.8952	-0.8832
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0796	0.0105	-0.0072	0.4555
+-0.0343	1.0408	-0.0081	-0.4686
+-0.0019	0.0161	1.1170	0.9788
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9325	-0.0122	-0.0032	-0.6215
+0.0182	0.9755	0.0120	0.3492
+0.0070	-0.0102	0.9049	-1.1169
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0721	0.0134	0.0037	0.6657
+-0.0199	1.0248	-0.0137	-0.3855
+-0.0085	0.0114	1.1050	1.2249
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9325	-0.0122	-0.0032	-0.6215
+0.0182	0.9755	0.0120	0.3492
+0.0070	-0.0102	0.9049	-1.1169
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0721	0.0134	0.0037	0.6657
+-0.0199	1.0248	-0.0137	-0.3855
+-0.0085	0.0114	1.1050	1.2249
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9217	-0.0063	-0.0027	-0.7113
+0.0204	0.9592	-0.0050	-0.0529
+0.0110	-0.0140	0.8986	-1.1404
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0848	0.0072	0.0033	0.7758
+-0.0231	1.0425	0.0057	0.0452
+-0.0137	0.0162	1.1129	1.2604
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 23 sec
+Have a good day !
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/lh_white.stl as a surface
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9490	-0.0059	-0.0002	0.0086
+0.0008	0.9981	0.0202	-0.4645
+-0.0002	-0.0005	0.9436	0.0132
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0538	0.0062	0.0001	-0.0062
+-0.0008	1.0019	-0.0215	0.4657
+0.0002	0.0005	1.0597	-0.0137
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9490	-0.0059	-0.0002	0.0086
+0.0008	0.9981	0.0202	-0.4645
+-0.0002	-0.0005	0.9436	0.0132
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0538	0.0062	0.0001	-0.0062
+-0.0008	1.0019	-0.0215	0.4657
+0.0002	0.0005	1.0597	-0.0137
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9538	0.0014	-0.0039	-0.1767
+-0.0080	1.0030	0.0295	-0.3478
+0.0075	0.0037	0.9549	0.0687
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0484	-0.0015	0.0043	0.1845
+0.0086	0.9971	-0.0308	0.3504
+-0.0082	-0.0039	1.0473	-0.0748
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9538	0.0014	-0.0039	-0.1767
+-0.0080	1.0030	0.0295	-0.3478
+0.0075	0.0037	0.9549	0.0687
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0484	-0.0015	0.0043	0.1845
+0.0086	0.9971	-0.0308	0.3504
+-0.0082	-0.0039	1.0473	-0.0748
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9511	0.0010	-0.0052	-0.3077
+-0.0098	1.0012	0.0165	-0.4753
+0.0096	0.0021	0.9519	-0.3350
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0514	-0.0010	0.0058	0.3250
+0.0105	0.9989	-0.0173	0.4722
+-0.0106	-0.0022	1.0505	0.3476
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 23 sec
+Have a good day !
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/mri.nii.gz
+[2022-12-20 02:59:29,850][__main__][INFO] - Image registration done in 143.26631546020508 seconds
+[2022-12-20 02:59:29,850][__main__][INFO] - 2 - Converting and warping surfaces
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/rh_white.stl as a surface
+[2022-12-20 02:59:29,933][__main__][INFO] - Surface rh_pial converted and warped in 1.4370849132537842 seconds
+[2022-12-20 02:59:30,440][__main__][INFO] - Surface lh_white converted and warped in 1.7579975128173828 seconds
+[2022-12-20 02:59:30,570][__main__][INFO] - Surface rh_white converted and warped in 1.489180326461792 seconds
+[2022-12-20 02:59:30,570][__main__][INFO] - All surfaces conversion and warping done in 5.90859317779541 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/lh_pial.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/rh_white.stl as a surface
+[2022-12-20 02:59:31,174][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/389357/pointcloud.val.npz
+[2022-12-20 02:59:31,253][__main__][INFO] - Surface lh_pial converted and warped in 1.398057460784912 seconds
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/mri.nii.gz
+[2022-12-20 02:59:31,301][__main__][INFO] - Image registration done in 144.79285597801208 seconds
+[2022-12-20 02:59:31,301][__main__][INFO] - 2 - Converting and warping surfaces
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/rh_pial.stl as a surface
+[2022-12-20 02:59:31,332][__main__][INFO] - Surface rh_white converted and warped in 1.399245023727417 seconds
+[2022-12-20 02:59:31,333][__main__][INFO] - All surfaces conversion and warping done in 5.729925632476807 seconds
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/mri.nii.gz
+[2022-12-20 02:59:31,383][__main__][INFO] - Image registration done in 144.8199725151062 seconds
+[2022-12-20 02:59:31,383][__main__][INFO] - 2 - Converting and warping surfaces
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9457	0.0014	-0.0149	0.0115
+-0.0065	1.0149	0.0281	0.2970
+0.0172	-0.0133	0.9492	-0.7905
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0571	-0.0012	0.0166	0.0013
+0.0073	0.9850	-0.0290	-0.3155
+-0.0190	0.0138	1.0529	0.8284
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9457	0.0014	-0.0149	0.0115
+-0.0065	1.0149	0.0281	0.2970
+0.0172	-0.0133	0.9492	-0.7905
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0571	-0.0012	0.0166	0.0013
+0.0073	0.9850	-0.0290	-0.3155
+-0.0190	0.0138	1.0529	0.8284
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9533	-0.0002	-0.0102	-0.3244
+-0.0211	1.0121	0.0285	-0.7651
+0.0193	-0.0017	0.9528	-0.7806
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0487	0.0002	0.0112	0.3492
+0.0225	0.9880	-0.0293	0.7403
+-0.0213	0.0017	1.0493	0.8135
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9533	-0.0002	-0.0102	-0.3244
+-0.0211	1.0121	0.0285	-0.7651
+0.0193	-0.0017	0.9528	-0.7806
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0487	0.0002	0.0112	0.3492
+0.0225	0.9880	-0.0293	0.7403
+-0.0213	0.0017	1.0493	0.8135
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9490	0.0055	-0.0129	-0.2150
+-0.0235	1.0145	0.0178	-0.4034
+0.0298	-0.0042	0.9584	-1.4696
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0531	-0.0057	0.0143	0.2451
+0.0250	0.9855	-0.0180	0.3765
+-0.0326	0.0045	1.0429	1.5274
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 25 sec
+Have a good day !
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9094	0.0224	-0.0137	0.1490
+-0.0565	0.9586	-0.0059	0.6725
+0.0546	-0.0037	0.9366	-0.7015
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0971	-0.0256	0.0158	-0.1352
+0.0643	1.0417	0.0075	-0.7048
+-0.0637	0.0057	1.0668	0.7540
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9094	0.0224	-0.0137	0.1490
+-0.0565	0.9586	-0.0059	0.6725
+0.0546	-0.0037	0.9366	-0.7015
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0971	-0.0256	0.0158	-0.1352
+0.0643	1.0417	0.0075	-0.7048
+-0.0637	0.0057	1.0668	0.7540
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9176	0.0279	-0.0187	-0.1717
+-0.0586	0.9705	-0.0122	0.6624
+0.0633	-0.0048	0.9407	-0.8877
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0863	-0.0311	0.0212	0.2259
+0.0647	1.0286	0.0146	-0.6572
+-0.0728	0.0073	1.0616	0.9251
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9176	0.0279	-0.0187	-0.1717
+-0.0586	0.9705	-0.0122	0.6624
+0.0633	-0.0048	0.9407	-0.8877
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0863	-0.0311	0.0212	0.2259
+0.0647	1.0286	0.0146	-0.6572
+-0.0728	0.0073	1.0616	0.9251
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9104	0.0332	-0.0203	0.0885
+-0.0730	0.9616	-0.0154	0.3349
+0.0715	0.0013	0.9342	-0.8169
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0936	-0.0378	0.0231	-0.0652
+0.0817	1.0371	0.0189	-0.3391
+-0.0838	0.0015	1.0687	0.8799
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 25 sec
+Have a good day !
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/lh_white.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/lh_pial.stl as a surface
+[2022-12-20 02:59:32,143][__main__][INFO] - Surface rh_pial converted and warped in 1.7030227184295654 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/lh_pial.stl as a surface
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9268	0.0101	-0.0052	0.0951
+-0.0251	0.9731	0.0255	0.2299
+0.0111	-0.0258	0.8983	-1.2258
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0785	-0.0110	0.0066	-0.0920
+0.0281	1.0266	-0.0290	-0.2742
+-0.0125	0.0296	1.1124	1.3579
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9268	0.0101	-0.0052	0.0951
+-0.0251	0.9731	0.0255	0.2299
+0.0111	-0.0258	0.8983	-1.2258
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0785	-0.0110	0.0066	-0.0920
+0.0281	1.0266	-0.0290	-0.2742
+-0.0125	0.0296	1.1124	1.3579
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9342	0.0043	-0.0109	-0.0734
+-0.0271	0.9777	0.0444	0.4793
+0.0076	-0.0224	0.9079	-1.3096
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0702	-0.0044	0.0130	0.0978
+0.0301	1.0215	-0.0496	-0.5524
+-0.0082	0.0253	1.1001	1.4281
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9342	0.0043	-0.0109	-0.0734
+-0.0271	0.9777	0.0444	0.4793
+0.0076	-0.0224	0.9079	-1.3096
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0702	-0.0044	0.0130	0.0978
+0.0301	1.0215	-0.0496	-0.5524
+-0.0082	0.0253	1.1001	1.4281
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9255	0.0083	-0.0031	0.1008
+-0.0284	0.9773	0.0312	0.8132
+0.0072	-0.0301	0.9036	-1.4716
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0802	-0.0091	0.0041	-0.0956
+0.0316	1.0219	-0.0352	-0.8860
+-0.0076	0.0341	1.1055	1.5999
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 26 sec
+Have a good day !
+[2022-12-20 02:59:32,497][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:32,571][__main__][INFO] - Surface lh_white converted and warped in 1.3183200359344482 seconds
+[2022-12-20 02:59:32,735][__main__][INFO] - Surface lh_pial converted and warped in 1.42999267578125 seconds
+
+[NiftyReg ALADIN] Command line:
+	 reg_aladin -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz -aff /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/transform_affine.txt
+
+[reg_aladin_sym] Parameters
+[reg_aladin_sym] Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+[reg_aladin_sym] 	182x218x182 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz
+[reg_aladin_sym] 	256x256x256 voxels
+[reg_aladin_sym] 	1x1x1 mm
+[reg_aladin_sym] Maximum iteration number: 5 (10 during the first level)
+[reg_aladin_sym] Percentage of blocks: 50 %
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Current level 1 / 3
+[reg_aladin_sym] reference image size: 	46x55x46 voxels	4x4x4 mm
+[reg_aladin_sym] floating image size: 	64x64x64 voxels	4x4x4 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [12 14 12]
+[reg_aladin_sym] Backward Block number = [16 16 16]
+[reg_aladin_sym] Initial forward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	-0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0000	0.0000	0.0000	0.0000
+0.0000	1.0000	0.0000	0.5000
+0.0000	0.0000	1.0000	0.0000
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9645	0.0031	-0.0084	0.3102
+-0.0108	0.9926	0.0484	-1.4557
+0.0156	-0.0111	0.9359	-0.7363
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0366	-0.0031	0.0094	-0.3192
+0.0122	1.0069	-0.0520	1.4236
+-0.0172	0.0120	1.0677	0.8090
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 2 / 3
+[reg_aladin_sym] reference image size: 	91x109x91 voxels	2x2x2 mm
+[reg_aladin_sym] floating image size: 	128x128x128 voxels	2x2x2 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [23 28 23]
+[reg_aladin_sym] Backward Block number = [32 32 32]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9645	0.0031	-0.0084	0.3102
+-0.0108	0.9926	0.0484	-1.4557
+0.0156	-0.0111	0.9359	-0.7363
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0366	-0.0031	0.0094	-0.3192
+0.0122	1.0069	-0.0520	1.4236
+-0.0172	0.0120	1.0677	0.8090
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9641	-0.0005	-0.0096	0.4869
+-0.0170	0.9878	0.0383	-1.6079
+0.0159	0.0195	0.9441	-0.1490
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0370	0.0003	0.0105	-0.5028
+0.0185	1.0132	-0.0409	1.6139
+-0.0179	-0.0209	1.0599	0.1329
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+[reg_aladin_sym] Current level 3 / 3
+[reg_aladin_sym] reference image size: 	182x218x182 voxels	1x1x1 mm
+[reg_aladin_sym] floating image size: 	256x256x256 voxels	1x1x1 mm
+[reg_aladin_sym] Block size = [4 4 4]
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Forward Block number = [46 55 46]
+[reg_aladin_sym] Backward Block number = [64 64 64]
+[reg_aladin_sym] Initial forward transformation matrix::
+0.9641	-0.0005	-0.0096	0.4869
+-0.0170	0.9878	0.0383	-1.6079
+0.0159	0.0195	0.9441	-0.1490
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Initial backward transformation matrix::
+1.0370	0.0003	0.0105	-0.5028
+0.0185	1.0132	-0.0409	1.6139
+-0.0179	-0.0209	1.0599	0.1329
+0.0000	0.0000	0.0000	1.0000
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+[reg_aladin_sym] Final forward transformation matrix::
+0.9641	0.0078	-0.0112	0.6556
+-0.0185	0.9902	0.0403	-1.2073
+0.0194	0.0040	0.9468	-0.4985
+0.0000	0.0000	0.0000	1.0000
+[reg_aladin_sym] Final backward transformation matrix::
+1.0368	-0.0082	0.0126	-0.6833
+0.0202	1.0099	-0.0427	1.1847
+-0.0213	-0.0041	1.0561	0.5355
+0.0000	0.0000	0.0000	1.0000
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+Registration Performed in 2 min 26 sec
+Have a good day !
+[2022-12-20 02:59:32,992][__main__][INFO] - Surface lh_pial converted and warped in 1.6039035320281982 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/rh_white.stl as a surface
+[2022-12-20 02:59:33,176][__main__][INFO] - 3 - Generating point clouds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/rh_pial.stl as a surface
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/mri.nii.gz
+[2022-12-20 02:59:33,321][__main__][INFO] - Image registration done in 146.81232023239136 seconds
+[2022-12-20 02:59:33,331][__main__][INFO] - 2 - Converting and warping surfaces
+[2022-12-20 02:59:33,361][__main__][INFO] - Point cloud sampled for val split in 4.541839361190796 seconds
+[2022-12-20 02:59:33,361][__main__][INFO] - Point cloud sampled in 9.375442743301392 seconds
+[2022-12-20 02:59:33,361][__main__][INFO] - 4 - Generating implicit surface ground-truth
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/lh_white.stl as a surface
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/mri.nii.gz
+[2022-12-20 02:59:33,578][__main__][INFO] - Image registration done in 147.01472973823547 seconds
+[2022-12-20 02:59:33,578][__main__][INFO] - 2 - Converting and warping surfaces
+[2022-12-20 02:59:33,805][__main__][INFO] - Surface rh_white converted and warped in 1.6616337299346924 seconds
+[2022-12-20 02:59:33,806][__main__][INFO] - All surfaces conversion and warping done in 6.969491004943848 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/lh_white.stl as a surface
+[2022-12-20 02:59:33,905][__main__][INFO] - Surface rh_pial converted and warped in 1.3333349227905273 seconds
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/mri.nii.gz
+[2022-12-20 02:59:34,001][__main__][INFO] - Image registration done in 147.4363660812378 seconds
+[2022-12-20 02:59:34,001][__main__][INFO] - 2 - Converting and warping surfaces
+[2022-12-20 02:59:34,116][__main__][INFO] - Surface lh_white converted and warped in 1.37998628616333 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/lh_pial.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/lh_pial.stl as a surface
+
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+Command line:
+ reg_resample -ref /deepcsr/resources/MNI152_T1_1mm.nii.gz -flo /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz -trans /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/transform_affine.txt -res /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz -inter 3
+
+Parameters
+Reference image name: /deepcsr/resources/MNI152_T1_1mm.nii.gz
+	182x218x182 voxels, 1 volumes
+	1x1x1 mm
+Floating image name: /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz
+	256x256x256 voxels, 1 volumes
+	1x1x1 mm
+* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
+
+[NiftyReg] Resampled image has been saved: /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/mri.nii.gz
+[2022-12-20 02:59:34,444][__main__][INFO] - Image registration done in 147.93524503707886 seconds
+[2022-12-20 02:59:34,445][__main__][INFO] - 2 - Converting and warping surfaces
+[2022-12-20 02:59:34,578][__main__][INFO] - Surface lh_white converted and warped in 1.5858864784240723 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/rh_white.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/rh_pial.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/lh_pial.stl as a surface
+[2022-12-20 02:59:35,015][__main__][INFO] - Surface lh_pial converted and warped in 1.431734323501587 seconds
+[2022-12-20 02:59:35,046][__main__][INFO] - Surface lh_pial converted and warped in 1.688410758972168 seconds
+[2022-12-20 02:59:35,266][__main__][INFO] - Surface rh_white converted and warped in 1.3608436584472656 seconds
+[2022-12-20 02:59:35,266][__main__][INFO] - All surfaces conversion and warping done in 5.416249990463257 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/lh_pial.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/rh_pial.stl as a surface
+[2022-12-20 02:59:35,561][__main__][INFO] - Surface rh_pial converted and warped in 1.4445934295654297 seconds
+[2022-12-20 02:59:35,592][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/pointcloud.train.npz
+[2022-12-20 02:59:35,673][__main__][INFO] - Surface lh_pial converted and warped in 1.6669948101043701 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/lh_white.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/lh_white.stl as a surface
+[2022-12-20 02:59:36,122][__main__][INFO] - Surface lh_pial converted and warped in 1.672377586364746 seconds
+[2022-12-20 02:59:36,138][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:36,222][__main__][INFO] - Surface rh_pial converted and warped in 1.6438465118408203 seconds
+[2022-12-20 02:59:36,224][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/pointcloud.train.npz
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/rh_white.stl as a surface
+[2022-12-20 02:59:36,449][__main__][INFO] - Surface lh_white converted and warped in 1.4338772296905518 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/lh_white.stl as a surface
+[2022-12-20 02:59:36,713][__main__][INFO] - Surface lh_white converted and warped in 1.6664628982543945 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/lh_white.stl as a surface
+[2022-12-20 02:59:36,970][__main__][INFO] - Surface rh_white converted and warped in 1.4091238975524902 seconds
+[2022-12-20 02:59:36,970][__main__][INFO] - All surfaces conversion and warping done in 5.669071435928345 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/rh_white.stl as a surface
+[2022-12-20 02:59:37,078][__main__][INFO] - 3 - Generating point clouds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/rh_pial.stl as a surface
+[2022-12-20 02:59:37,280][__main__][INFO] - Surface lh_white converted and warped in 1.6059327125549316 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/rh_pial.stl as a surface
+[2022-12-20 02:59:37,736][__main__][INFO] - Surface lh_white converted and warped in 1.6139068603515625 seconds
+[2022-12-20 02:59:37,820][__main__][INFO] - Point cloud sampled for train split in 5.322293281555176 seconds
+[2022-12-20 02:59:37,830][__main__][INFO] - Surface rh_white converted and warped in 1.60691237449646 seconds
+[2022-12-20 02:59:37,830][__main__][INFO] - All surfaces conversion and warping done in 6.4464805126190186 seconds
+[2022-12-20 02:59:37,924][__main__][INFO] - Surface rh_pial converted and warped in 1.475090503692627 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/rh_pial.stl as a surface
+[2022-12-20 02:59:38,466][__main__][INFO] - Surface rh_pial converted and warped in 1.7524771690368652 seconds
+[2022-12-20 02:59:38,472][__main__][INFO] - Point cloud sampled for train split in 5.295429468154907 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/rh_pial.stl as a surface
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/rh_white.stl as a surface
+[2022-12-20 02:59:38,895][__main__][INFO] - Surface rh_pial converted and warped in 1.6153440475463867 seconds
+[2022-12-20 02:59:38,945][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:39,315][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/pointcloud.train.npz
+[2022-12-20 02:59:39,352][__main__][INFO] - Surface rh_pial converted and warped in 1.615386724472046 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/rh_white.stl as a surface
+[2022-12-20 02:59:39,427][__main__][INFO] - Surface rh_white converted and warped in 1.5027492046356201 seconds
+[2022-12-20 02:59:39,427][__main__][INFO] - All surfaces conversion and warping done in 5.849451780319214 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/rh_white.stl as a surface
+[2022-12-20 02:59:40,105][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:40,149][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/pointcloud.train.npz
+[2022-12-20 02:59:40,167][__main__][INFO] - Surface rh_white converted and warped in 1.7006559371948242 seconds
+[2022-12-20 02:59:40,167][__main__][INFO] - All surfaces conversion and warping done in 6.835470676422119 seconds
+Converting from tkr to scanner coordinates
+Saving /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/rh_white.stl as a surface
+[2022-12-20 02:59:40,514][__main__][INFO] - Surface rh_white converted and warped in 1.6188957691192627 seconds
+[2022-12-20 02:59:40,515][__main__][INFO] - All surfaces conversion and warping done in 6.513514518737793 seconds
+[2022-12-20 02:59:40,643][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/382242/pointcloud.val.npz
+[2022-12-20 02:59:40,956][__main__][INFO] - Surface rh_white converted and warped in 1.6037955284118652 seconds
+[2022-12-20 02:59:40,956][__main__][INFO] - All surfaces conversion and warping done in 6.511224269866943 seconds
+[2022-12-20 02:59:41,279][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/381543/pointcloud.val.npz
+[2022-12-20 02:59:41,345][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:41,565][__main__][INFO] - Point cloud sampled for train split in 5.426377773284912 seconds
+[2022-12-20 02:59:41,976][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/pointcloud.train.npz
+[2022-12-20 02:59:42,378][__main__][INFO] - Point cloud sampled for train split in 5.298705816268921 seconds
+[2022-12-20 02:59:42,404][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:42,663][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:42,858][__main__][INFO] - Point cloud sampled for val split in 5.038002014160156 seconds
+[2022-12-20 02:59:42,858][__main__][INFO] - Point cloud sampled in 10.360689640045166 seconds
+[2022-12-20 02:59:42,858][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:43,158][__main__][INFO] - 3 - Generating point clouds
+[2022-12-20 02:59:43,237][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/pointcloud.train.npz
+[2022-12-20 02:59:43,511][__main__][INFO] - Point cloud sampled for val split in 5.038567543029785 seconds
+[2022-12-20 02:59:43,511][__main__][INFO] - Point cloud sampled in 10.334370136260986 seconds
+[2022-12-20 02:59:43,511][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:44,207][__main__][INFO] - Point cloud sampled for train split in 5.261335849761963 seconds
+[2022-12-20 02:59:44,390][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/pointcloud.train.npz
+[2022-12-20 02:59:44,423][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/386250/pointcloud.val.npz
+[2022-12-20 02:59:45,143][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/379657/pointcloud.val.npz
+[2022-12-20 02:59:45,466][__main__][INFO] - Point cloud sampled for train split in 5.3607635498046875 seconds
+[2022-12-20 02:59:45,592][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/pointcloud.train.npz
+[2022-12-20 02:59:45,783][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/pointcloud.train.npz
+[2022-12-20 02:59:46,308][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/pointcloud.train.npz
+[2022-12-20 02:59:46,642][__main__][INFO] - Point cloud sampled for train split in 5.296213626861572 seconds
+[2022-12-20 02:59:46,655][__main__][INFO] - Point cloud sampled for val split in 5.090361833572388 seconds
+[2022-12-20 02:59:46,655][__main__][INFO] - Point cloud sampled in 10.517129898071289 seconds
+[2022-12-20 02:59:46,655][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:46,921][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/377451/pointcloud.val.npz
+[2022-12-20 02:59:47,376][__main__][INFO] - Point cloud sampled for val split in 4.997983694076538 seconds
+[2022-12-20 02:59:47,376][__main__][INFO] - Point cloud sampled in 10.297065019607544 seconds
+[2022-12-20 02:59:47,376][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:47,849][__main__][INFO] - Point cloud sampled for train split in 5.444194555282593 seconds
+[2022-12-20 02:59:48,012][__main__][INFO] - Point cloud sampled for train split in 5.348912000656128 seconds
+[2022-12-20 02:59:48,243][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/380036/pointcloud.val.npz
+[2022-12-20 02:59:48,537][__main__][INFO] - Point cloud sampled for train split in 5.378745079040527 seconds
+[2022-12-20 02:59:49,159][__main__][INFO] - Point cloud sampled for val split in 4.951432466506958 seconds
+[2022-12-20 02:59:49,159][__main__][INFO] - Point cloud sampled in 10.213134050369263 seconds
+[2022-12-20 02:59:49,159][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:49,429][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/381038/pointcloud.val.npz
+[2022-12-20 02:59:50,454][__main__][INFO] - Point cloud sampled for val split in 4.987897872924805 seconds
+[2022-12-20 02:59:50,454][__main__][INFO] - Point cloud sampled in 10.349243402481079 seconds
+[2022-12-20 02:59:50,455][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:50,739][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/387959/pointcloud.val.npz
+[2022-12-20 02:59:50,901][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/378857/pointcloud.val.npz
+[2022-12-20 02:59:51,441][__main__][INFO] - Writing pointcloud: /data/users2/washbee/speedrun/deepcsr-preprocessed/385450/pointcloud.val.npz
+[2022-12-20 02:59:51,645][__main__][INFO] - Point cloud sampled for val split in 5.003066778182983 seconds
+[2022-12-20 02:59:51,645][__main__][INFO] - Point cloud sampled in 10.299837827682495 seconds
+[2022-12-20 02:59:51,645][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:52,975][__main__][INFO] - Point cloud sampled for val split in 5.126152038574219 seconds
+[2022-12-20 02:59:52,976][__main__][INFO] - Point cloud sampled in 10.571026802062988 seconds
+[2022-12-20 02:59:52,976][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:53,145][__main__][INFO] - Point cloud sampled for val split in 5.132147789001465 seconds
+[2022-12-20 02:59:53,145][__main__][INFO] - Point cloud sampled in 10.481476545333862 seconds
+[2022-12-20 02:59:53,145][__main__][INFO] - 4 - Generating implicit surface ground-truth
+[2022-12-20 02:59:53,662][__main__][INFO] - Point cloud sampled for val split in 5.125316381454468 seconds
+[2022-12-20 02:59:53,663][__main__][INFO] - Point cloud sampled in 10.504474639892578 seconds
+[2022-12-20 02:59:53,663][__main__][INFO] - 4 - Generating implicit surface ground-truth
